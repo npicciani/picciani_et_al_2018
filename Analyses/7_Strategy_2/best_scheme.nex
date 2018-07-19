@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+	charset Subset1 = 6006-6629 1-775 776-1238;
+	charset Subset2 = 2838-6005 1239-2837;
+	charpartition PartitionFinder = GTR+I+G:Subset1, SYM+I+G:Subset2;
+end;

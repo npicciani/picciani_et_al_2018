@@ -1,0 +1,1494 @@
+IQ-TREE multicore version 1.4.2-beta for Linux 64-bit built Mar 28 2016
+Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    node92 (SSE4.2, 1009 GB RAM)
+Command: /home/picciani/bin/iqtree-omp -s ./phylocat_2_genes_data_selected_no_long.fasta -m TESTNEWONLY -nt 12 -pre model_no_long
+Seed:    849575 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep 25 10:05:35 2017
+Kernel:  SSE3 - 12 threads (32 CPU cores detected)
+
+Reading alignment file ./phylocat_2_genes_data_selected_no_long.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 1106 sequences with 6629 columns and 5254 patterns (3932 informative sites)
+                                    Gap/Ambiguity  Composition  p-value
+   1  Abietinaria_abietina                 22.37%    passed      8.33%
+   2  Abietinaria_filicula                 22.21%    passed      6.59%
+   3  Abyssoprimnoa_gemina                 70.96%    passed     90.54%
+   4  Acanthogorgia_granulata              66.71%    failed      3.30%
+   5  Acanthogorgia_sp                     12.42%    failed      0.33%
+   6  Acanthopathes_thyoides               12.20%    failed      0.03%
+   7  Acraspedanthus_ferax                 64.19%    passed     77.68%
+   8  Acraspedanthus_sp                    64.58%    passed      9.88%
+   9  Acromitus_sp                         59.66%    failed      0.52%
+  10  Acropora_cervicornis                 78.90%    failed      0.00%
+  11  Acropora_cytherea                    82.12%    failed      0.00%
+  12  Acropora_digitifera                  78.90%    failed      0.00%
+  13  Acropora_formosa                     81.25%    failed      0.00%
+  14  Acropora_humilis                     72.71%    failed      0.00%
+  15  Acropora_hyacinthus                  78.90%    failed      0.00%
+  16  Acropora_palifera                    82.12%    failed      0.00%
+  17  Acropora_palmata                     78.90%    failed      0.00%
+  18  Acropora_robusta                     74.43%    failed      0.00%
+  19  Acrozoanthus_australiae              85.13%    passed     21.88%
+  20  Acrozoanthus_sp                      84.55%    failed      2.80%
+  21  Actinauge_richardi                   11.28%    failed      0.00%
+  22  Actinernus_elongatus                 22.49%    failed      0.00%
+  23  Actinia_fragacea                     10.86%    failed      0.00%
+  24  Actinia_tenebrosa                    58.89%    passed     49.03%
+  25  Actinoscyphia_plebeia                11.15%    failed      0.00%
+  26  Actinostephanus_haeckeli             82.67%    failed      0.85%
+  27  Actinostola_crassicornis             22.57%    failed      0.00%
+  28  Actinostola_georgiana                20.20%    failed      0.00%
+  29  Actinothoe_sphyrodeta                57.91%    passed     44.18%
+  30  Actinotryx_sanctithomae              68.94%    passed     80.95%
+  31  Adamsia_palliata                     10.85%    failed      0.00%
+  32  Adelopora_crassilabrum               21.45%    passed     50.54%
+  33  Adelopora_sp                         68.97%    failed      0.07%
+  34  Aegina_citrea                        28.19%    failed      0.12%
+  35  Aeginura_grimaldii                   84.43%    failed      0.00%
+  36  Aequorea_aequorea                    22.91%    passed     74.08%
+  37  Aequorea_australis                   59.54%    failed      0.00%
+  38  Aequorea_conica                      83.71%    failed      0.00%
+  39  Aequorea_papillata                   84.21%    failed      0.00%
+  40  Aequorea_sp                          83.63%    failed      0.00%
+  41  Aequorea_victoria                    21.66%    passed     72.90%
+  42  Agalma_clausi                        69.01%    failed      0.20%
+  43  Agalma_elegans                       23.76%    failed      0.88%
+  44  Agalma_okeni                         59.60%    failed      0.00%
+  45  Agaricia_agaricites                  78.99%    failed      0.02%
+  46  Agaricia_fragilis                    79.03%    failed      0.03%
+  47  Agaricia_humilis                     79.35%    failed      0.01%
+  48  Agaricia_lamarcki                    79.03%    failed      0.03%
+  49  Agaricia_tenuifolia                  78.99%    failed      0.01%
+  50  Aglantha_digitale                    21.63%    passed     65.27%
+  51  Aglaophenia_elongata                 22.42%    passed     18.81%
+  52  Aglaophenia_harpago                  22.39%    passed     19.49%
+  53  Aglaophenia_octodonta                22.43%    passed     15.63%
+  54  Aglaophenia_pluma                    22.40%    passed     19.26%
+  55  Aglaophenia_rhynchocarpa             21.63%    failed      4.58%
+  56  Aglaophenia_tubiformis               21.71%    passed     24.60%
+  57  Aglaura_hemistoma                    18.87%    passed     51.25%
+  58  Aglauropsis_aeora                    21.32%    passed     44.66%
+  59  Aiptasia_couchii                     59.65%    passed     39.30%
+  60  Aiptasia_mutabilis                   21.74%    failed      0.00%
+  61  Aiptasia_pulchella                   57.63%    passed     51.15%
+  62  Aiptasiogeton_hyalinus               70.92%    passed     91.75%
+  63  Alaskagorgia_aleutiana               66.65%    failed      2.24%
+  64  Alatina_mordens                      22.21%    failed      0.40%
+  65  Alcyonium_sp                         83.75%    failed      0.02%
+  66  Alicia_mirabilis                     17.77%    failed      0.00%
+  67  Alicia_sansibarensis                 23.71%    failed      2.00%
+  68  Allantactis_parasitica               10.82%    failed      0.00%
+  69  Alveopora_sp                         72.71%    failed      0.00%
+  70  Alvinactis_chessi                    58.58%    passed     61.38%
+  71  Amphianthus_sp                       58.50%    passed     47.14%
+  72  Amphimedon_queenslandica              1.80%    failed      0.00%
+  73  Amphinema_dinema                     84.12%    failed      0.00%
+  74  Amphinema_sp                         83.77%    failed      0.00%
+  75  Amphisbetia_minima                   22.45%    passed     11.36%
+  76  Amphisbetia_operculata               22.72%    passed     13.43%
+  77  Amphogona_apicata                    45.95%    passed     76.21%
+  78  Amplexidiscus_fenestrafer            48.29%    failed      0.58%
+  79  Anacropora_sp                        82.12%    failed      0.00%
+  80  Andvakia_boniensis                   16.50%    failed      0.00%
+  81  Andvakia_discipulorum                58.52%    passed     43.59%
+  82  Anemonia_viridis                     11.12%    failed      0.00%
+  83  Antarctoscyphus_spiralis             29.91%    passed     44.32%
+  84  Antennella_ansini                    32.57%    passed     46.75%
+  85  Antennella_kiwiana                   22.33%    passed     26.08%
+  86  Antennella_secundaria                22.25%    passed     48.50%
+  87  Anthemiphyllia_spinifera             83.80%    failed      0.00%
+  88  Anthohebella_parasitica              24.53%    failed      3.71%
+  89  Antholoba_achates                    11.80%    failed      0.00%
+  90  Anthomastus_ritteri                  84.93%    failed      0.07%
+  91  Anthopleura_artemisia                58.95%    passed     54.31%
+  92  Anthopleura_atodai                   18.22%    failed      0.00%
+  93  Anthopleura_elegantissima             0.41%    failed      0.00%
+  94  Anthopleura_handi                    67.76%    passed     81.62%
+  95  Anthopleura_krebsi                   58.88%    passed     31.68%
+  96  Anthopleura_kurogane                 82.74%    failed      2.34%
+  97  Anthopleura_rosea                    58.88%    passed     52.50%
+  98  Anthosactis_janmayeni                11.37%    failed      0.00%
+  99  Anthosactis_pearseae                 58.50%    passed     51.89%
+ 100  Anthostella_stephensoni              48.45%    failed      0.00%
+ 101  Anthothela_nuttingi                  59.66%    passed      9.40%
+ 102  Anthothoe_chilensis                  59.53%    passed     34.23%
+ 103  Antillogorgia_bipinnata              18.87%    failed      0.13%
+ 104  Antipathes_atlantica                 12.08%    failed      0.08%
+ 105  Antipathes_galapagensis              28.21%    failed      0.00%
+ 106  Antipathes_griggi                    12.46%    failed      0.15%
+ 107  Antipathozoanthus_macaronesicus      70.42%    passed     99.93%
+ 108  Antipodactis_awii                    16.47%    failed      0.00%
+ 109  Aphanipathes_verticillata            20.65%    failed      0.00%
+ 110  Apolemia_lanosa                      59.51%    failed      0.00%
+ 111  Apolemia_rubriversa                  59.50%    failed      0.00%
+ 112  Apolemia_sp                          12.81%    failed      2.69%
+ 113  Armadillogorgia_sp                   66.48%    passed     20.76%
+ 114  Arntzia_gracilis                     72.59%    failed      4.13%
+ 115  Astreopora_myriophthalma             79.26%    failed      0.00%
+ 116  Astreopora_sp                        72.71%    failed      0.00%
+ 117  Astrohydra_japonica                  45.32%    failed      0.56%
+ 118  Asyncoryne_ryniensis                 21.89%    passed     48.98%
+ 119  Athorybia_rosacea                    59.60%    failed      0.00%
+ 120  Atolla_vanhoeffeni                   18.90%    passed     88.26%
+ 121  Atolla_wyvillei                      66.48%    failed      0.00%
+ 122  Aulactinia_incubans                  13.44%    failed      0.00%
+ 123  Aulactinia_marplatensis              60.60%    failed      1.19%
+ 124  Aulactinia_sp                        60.70%    passed     89.72%
+ 125  Aulactinia_stella                    13.70%    failed      0.00%
+ 126  Aulactinia_vancouverensis            59.06%    passed     57.01%
+ 127  Aulactinia_veratra                   59.13%    passed     62.37%
+ 128  Aulactinia_verrucosa                 11.06%    failed      0.00%
+ 129  Aurelia_aurita                       49.16%    failed      0.00%
+ 130  Aurelia_labiata                      69.87%    passed     73.83%
+ 131  Aurelia_limbata                      69.45%    passed     46.20%
+ 132  Aurelia_sp                           12.04%    passed     11.64%
+ 133  Balanophyllia_regia                  82.46%    failed      0.00%
+ 134  Balanophyllia_sp                     79.53%    failed      0.00%
+ 135  Bargmannia_amoena                    68.92%    failed      0.00%
+ 136  Bargmannia_elongata                  68.91%    failed      0.00%
+ 137  Bartholomea_annulata                 11.12%    failed      0.00%
+ 138  Bathypathes_patula                   29.66%    failed      3.48%
+ 139  Bathypathes_sp                       66.47%    passed     10.16%
+ 140  Bathyphellia_australis               59.12%    passed     65.05%
+ 141  Bellactis_ilkalyseae                 71.13%    passed     94.10%
+ 142  Billardia_subrufa                    21.39%    failed      3.90%
+ 143  Bimeria_vestita                      21.15%    passed     64.65%
+ 144  Blackfordia_polytentaculata          84.15%    failed      0.00%
+ 145  Blackfordia_virginica                12.01%    passed     20.92%
+ 146  Bolocera_kerguelensis                27.46%    failed      0.00%
+ 147  Boloceroides_mcmurrichi              14.20%    failed      0.00%
+ 148  Bonneviella_regia                    59.86%    failed      0.00%
+ 149  Bonneviella_sp                       59.86%    failed      0.00%
+ 150  Botrynema_brucei                     18.99%    passed     48.81%
+ 151  Bougainvillia_carolinensis           28.38%    failed      3.31%
+ 152  Bougainvillia_fulva                  21.53%    passed     66.53%
+ 153  Bougainvillia_muscus                 12.51%    passed     71.28%
+ 154  Bougainvillia_sp                     12.23%    passed     72.28%
+ 155  Bougainvillia_triestina              60.01%    failed      0.00%
+ 156  Bouillonactinia_carcinicola          28.13%    failed      0.97%
+ 157  Bouillonactinia_hooperi              28.92%    failed      1.05%
+ 158  Branchiocerianthus_imperator         19.55%    passed     83.15%
+ 159  Briareum_asbestinum                  18.90%    failed      0.00%
+ 160  Brinckmannia_hexactinellidophila     28.10%    passed     17.01%
+ 161  Bullagummizoanthus_emilyacadiaarum   60.10%    passed     41.08%
+ 162  Bunodactis_reynaudi                  12.76%    failed      0.01%
+ 163  Bunodosoma_grandis                   11.96%    failed      0.00%
+ 164  Cactosoma_sp                         58.77%    passed     52.21%
+ 165  Calcigorgia_sp                       28.35%    failed      0.00%
+ 166  Calliactis_japonica                  10.80%    failed      0.00%
+ 167  Calliactis_parasitica                11.19%    failed      0.00%
+ 168  Calliactis_polypus                   10.76%    failed      0.00%
+ 169  Calliactis_tricolor                  10.86%    failed      0.00%
+ 170  Callogorgia_sp                       66.50%    passed     16.72%
+ 171  Calvadosia_campanulata               60.76%    failed      0.72%
+ 172  Calvadosia_corbini                   21.96%    failed      0.00%
+ 173  Calvadosia_cruciformis               13.41%    failed      1.47%
+ 174  Calvadosia_cruxmelitensis            13.53%    failed      0.00%
+ 175  Calvadosia_sp                        12.46%    failed      0.08%
+ 176  Calvadosia_vanhoeffeni               12.43%    failed      2.43%
+ 177  Calycella_syringa                    12.81%    passed     62.00%
+ 178  Calyptopora_sinuosa                  68.94%    failed      0.29%
+ 179  Calyptopora_sp                       68.92%    failed      1.15%
+ 180  Calyptrophora_microdentata           59.66%    passed     22.27%
+ 181  Calyptrophora_persephone             70.25%    passed     83.90%
+ 182  Calyptrophora_wyvillei               66.84%    passed     14.61%
+ 183  Campanularia_hincksii                59.75%    failed      0.00%
+ 184  Campanularia_sp                      60.10%    failed      0.00%
+ 185  Campanularia_subantarctica           84.13%    failed      0.00%
+ 186  Campanularia_volubilis               59.87%    failed      0.00%
+ 187  Campanulina_panicula                 22.33%    passed     64.34%
+ 188  Candelabrum_cocksii                  12.04%    passed     68.50%
+ 189  Candelabrum_sp                       60.30%    failed      0.07%
+ 190  Capnea_georgiana                     77.64%    passed     94.90%
+ 191  Carukia_barnesi                      21.65%    passed     20.67%
+ 192  Carybdea_arborifera                  21.71%    failed      0.03%
+ 193  Carybdea_branchi                     28.48%    failed      0.00%
+ 194  Carybdea_marsupialis                 22.16%    failed      0.02%
+ 195  Carybdea_mora                        21.71%    failed      0.05%
+ 196  Carybdea_rastonii                    21.69%    failed      0.50%
+ 197  Carybdea_sp                          21.72%    failed      0.42%
+ 198  Carybdea_xaymacana                   12.31%    failed      2.11%
+ 199  Caryophyllia_inornata                83.99%    failed      0.00%
+ 200  Cassiopea_andromeda                  66.48%    failed      3.68%
+ 201  Cassiopea_ornata                     66.65%    failed      1.71%
+ 202  Cassiopea_sp                         60.33%    failed      0.01%
+ 203  Cassiopea_xamachana                  66.65%    failed      4.69%
+ 204  Catalaphyllia_jardinei               84.09%    failed      0.00%
+ 205  Catostylus_mosaicus                  66.48%    failed      4.51%
+ 206  Catostylus_sp                        27.64%    failed      0.06%
+ 207  Caulastraea_furcata                  74.76%    failed      0.00%
+ 208  Cereus_herpetodes                    57.26%    passed     40.08%
+ 209  Cereus_pedunculatus                  58.94%    passed     38.29%
+ 210  Ceriantheomorphe_brasiliensis        35.41%    failed      0.00%
+ 211  Ceriantheopsis_americana             67.45%    failed      4.66%
+ 212  Cerianthus_membranaceus              66.99%    failed      3.15%
+ 213  Charisea_saxicola                    59.01%    passed     38.08%
+ 214  Chirodropida_sp                      69.33%    passed     94.57%
+ 215  Chirodropidae_sp                     22.43%    passed      8.94%
+ 216  Chironex_fleckeri                    15.52%    failed      4.37%
+ 217  Chironex_sp                          83.92%    failed      0.01%
+ 218  Chironex_yamaguchii                  28.39%    failed      1.84%
+ 219  Chiropsalmus_quadrumanus             15.30%    passed     23.71%
+ 220  Chiropsalmus_sp                      28.42%    failed      3.94%
+ 221  Chondrophellia_sp                    58.44%    passed     53.71%
+ 222  Chrysaora_fuscescens                 69.26%    passed     10.06%
+ 223  Chrysaora_helvola                    69.98%    passed      7.66%
+ 224  Chrysaora_hysoscella                 83.89%    failed      0.00%
+ 225  Chrysaora_melanaster                 11.99%    passed     55.21%
+ 226  Chrysaora_quinquecirrha              59.90%    failed      0.70%
+ 227  Chrysaora_sp                         11.95%    passed     43.04%
+ 228  Chrysogorgia_chryseis                59.72%    passed     43.36%
+ 229  Chrysogorgia_monticola               71.34%    passed     33.92%
+ 230  Chrysogorgia_pinnata                 71.34%    passed     42.91%
+ 231  Chrysogorgia_sp                      59.65%    passed     41.96%
+ 232  Chrysogorgiidae_sp                   66.50%    passed     22.93%
+ 233  Chuniphyes_multidentata              67.13%    failed      0.01%
+ 234  Cirrhipathes_anguina                 18.92%    failed      0.01%
+ 235  Cladocarpus_integer                  22.40%    passed      6.72%
+ 236  Cladocora_caespitosa                 75.26%    failed      0.00%
+ 237  Cladocoryne_floccosa                 21.18%    passed     59.75%
+ 238  Cladonema_radiatum                   45.41%    passed     45.31%
+ 239  Clausophyes_ovata                    21.80%    passed     41.78%
+ 240  Clausophyid_sp                       68.95%    failed      0.03%
+ 241  Clava_multicornis                    11.78%    passed     39.61%
+ 242  Clavactinia_gallensis                21.19%    passed     31.88%
+ 243  Clavactinia_serrata                  28.96%    failed      1.67%
+ 244  Clavularia_rudis                     66.48%    failed      2.62%
+ 245  Clavularia_sp                        66.48%    failed      1.96%
+ 246  Clytia_elsaeoswaldae                 63.54%    failed      0.03%
+ 247  Clytia_folleata                      59.62%    failed      0.00%
+ 248  Clytia_gracilis                      59.63%    failed      0.01%
+ 249  Clytia_hemisphaerica                 12.78%    passed     37.20%
+ 250  Clytia_hummelincki                   59.69%    failed      0.09%
+ 251  Clytia_linearis                      61.10%    failed      0.04%
+ 252  Clytia_noliformis                    23.93%    failed      0.05%
+ 253  Clytia_paulensis                     60.25%    failed      0.00%
+ 254  Clytia_sp                            12.16%    failed      2.72%
+ 255  Clytia_xiamenensis                   13.58%    passed     26.76%
+ 256  Cnidoscyphus_marginatus              22.34%    failed      0.21%
+ 257  Codonium_proliferum                  83.63%    failed      0.00%
+ 258  Colpophyllia_natans                  80.42%    failed      0.00%
+ 259  Conopora_anthohelia                  22.49%    passed     64.88%
+ 260  Conopora_candelabrum                 68.92%    failed      1.38%
+ 261  Conopora_sp                          68.92%    failed      2.87%
+ 262  Convexella_magelhaenica              66.48%    passed     21.65%
+ 263  Convexella_sp                        66.50%    passed      7.37%
+ 264  Copula_sivickisi                     21.81%    failed      0.03%
+ 265  Corallimorphus_pilatus               69.18%    passed     88.12%
+ 266  Corallimorphus_profundus             12.14%    failed      0.00%
+ 267  Corallium_ducale                     85.32%    failed      0.20%
+ 268  Corallium_kishinouyei                60.36%    passed     26.29%
+ 269  Corallium_niobe                      61.26%    passed     16.49%
+ 270  Corallium_sp                         66.48%    passed     13.90%
+ 271  Corallizoanthus_tsukaharai           59.75%    passed     37.02%
+ 272  Cordagalma_cordiforme                12.85%    passed      9.00%
+ 273  Cordylophora_caspia                  11.72%    passed     78.30%
+ 274  Cordylophora_sp                      84.12%    failed      0.00%
+ 275  Corydendrium_sp                      28.25%    failed      0.47%
+ 276  Corymorpha_bigelowi                  12.97%    passed     46.64%
+ 277  Corymorpha_glacialis                 19.76%    passed     44.34%
+ 278  Corymorpha_groenlandica              28.19%    failed      0.73%
+ 279  Corymorpha_intermedia                12.64%    passed     30.37%
+ 280  Corymorpha_nutans                    12.04%    passed     15.81%
+ 281  Corymorpha_pendula                   21.48%    passed     86.87%
+ 282  Corymorpha_sarsii                    21.62%    passed     90.16%
+ 283  Corynactis_californica               59.87%    failed      2.45%
+ 284  Corynactis_viridis                    9.62%    failed      0.05%
+ 285  Coryne_cliffordi                     21.53%    passed     29.32%
+ 286  Coryne_epizoica                      47.91%    passed     24.45%
+ 287  Coryne_eximia                        60.27%    failed      0.00%
+ 288  Coryne_muscoides                     21.18%    passed     91.06%
+ 289  Coryne_nipponica                     21.29%    passed     46.13%
+ 290  Coryne_pintneri                      21.96%    passed     95.70%
+ 291  Coryne_producta                      21.27%    passed     37.60%
+ 292  Coryne_prolifera                     45.29%    passed     15.92%
+ 293  Coryne_pusilla                       35.86%    passed     56.18%
+ 294  Coryne_sp                            83.63%    failed      0.00%
+ 295  Coryne_uchidai                       21.19%    passed     92.15%
+ 296  Coscinaraea_sp                       84.05%    failed      0.00%
+ 297  Crambionella_orsini                  66.48%    failed      3.18%
+ 298  Craseoa_lathetica                    69.21%    failed      0.20%
+ 299  Craspedacusta_sinensis               68.95%    passed     17.58%
+ 300  Craspedacusta_sowerbyi               59.51%    failed      1.73%
+ 301  Crassostrea_gigas                    51.76%    passed      8.29%
+ 302  Craterolophus_convolvulus            12.22%    failed      1.28%
+ 303  Cricophorus_nutrix                   70.61%    passed     70.99%
+ 304  Crispatotrochus_rugosus              84.02%    failed      0.00%
+ 305  Crossota_rufobrunnea                 22.16%    passed     56.49%
+ 306  Crypthelia_cryptotrema               21.80%    passed     53.01%
+ 307  Crypthelia_trophostega               69.06%    passed      5.72%
+ 308  Ctenocella_schmitti                  59.69%    passed     15.05%
+ 309  Cyananthea_hourdezi                  18.54%    failed      0.00%
+ 310  Cyanea_capillata                     59.99%    failed      0.11%
+ 311  Cyanea_nozakii                       59.59%    failed      0.00%
+ 312  Cyanea_sp                            59.63%    failed      0.00%
+ 313  Cyclohelia_lamellata                 69.32%    failed      0.79%
+ 314  Cyphastrea_ocellina                  84.09%    failed      0.00%
+ 315  Cytaeis_sp                           60.08%    failed      0.00%
+ 316  Dactylanthus_antarcticus             10.05%    failed      0.00%
+ 317  Dasystenella_acanthina               66.48%    passed     12.90%
+ 318  Dasystenella_austasensis             66.50%    passed     16.20%
+ 319  Dendrobathypathes_boutillieri        11.90%    failed      0.01%
+ 320  Dendrogyra_cylindrus                 80.80%    failed      0.00%
+ 321  Dendronephthya_sinaiensis            18.90%    failed      0.00%
+ 322  Dendronephthya_sp                    67.37%    failed      1.91%
+ 323  Dendropathes_bacotaylorae            39.04%    passed      7.75%
+ 324  Dendrophyllia_sp                     85.97%    failed      0.02%
+ 325  Dentitheca_bidentata                 23.35%    failed      0.20%
+ 326  Depastromorpha_africana              14.01%    passed      6.62%
+ 327  Depastromorpha_sp                    15.07%    failed      3.79%
+ 328  Desmophyllum_dianthus                78.17%    failed      0.00%
+ 329  Desmophyllum_pertusum                87.24%    failed      0.00%
+ 330  Diadumene_cincta                     11.72%    failed      0.00%
+ 331  Diadumene_leucolena                  49.24%    passed     15.95%
+ 332  Diadumene_sp                         19.48%    failed      0.00%
+ 333  Dichocoenia_stokesi                  74.69%    failed      0.00%
+ 334  Dicoryne_conybearei                  28.30%    failed      3.36%
+ 335  Digitogorgia_kuekenthali             66.48%    passed     15.82%
+ 336  Diphasia_fallax                      21.62%    passed     20.76%
+ 337  Diploria_clivosa                     80.78%    failed      0.00%
+ 338  Diploria_labyrinthiformis            80.42%    failed      0.00%
+ 339  Diploria_strigosa                    80.42%    failed      0.00%
+ 340  Dipurena_gemmifera                   21.66%    passed     74.41%
+ 341  Dipurena_halterata                   28.15%    failed      4.75%
+ 342  Dipurena_ophiogaster                 21.24%    passed     17.99%
+ 343  Dipurena_reesi                       23.58%    passed     23.16%
+ 344  Discosoma_neglecta                   69.18%    passed     93.42%
+ 345  Discosoma_nummiforme                 60.13%    failed      4.88%
+ 346  Discosoma_sp                         66.86%    passed      5.62%
+ 347  Distichopora_anceps                  69.24%    failed      1.25%
+ 348  Distichopora_asulcata                69.26%    failed      0.91%
+ 349  Distichopora_borealis                69.33%    failed      0.52%
+ 350  Distichopora_irregularis             69.30%    failed      0.74%
+ 351  Distichopora_robusta                 69.30%    failed      0.35%
+ 352  Distichopora_sp                      69.23%    failed      0.18%
+ 353  Distichopora_violacea                69.26%    failed      0.26%
+ 354  Drymonema_dalmatinum                 69.26%    passed     12.77%
+ 355  Drymonema_larsoni                    60.52%    failed      0.08%
+ 356  Dynamena_crisioides                  32.18%    failed      2.66%
+ 357  Dynamena_pumila                      33.43%    passed     25.85%
+ 358  Echinophyllia_orpheensis             80.78%    failed      0.00%
+ 359  Echinopora_lamellosa                 73.06%    failed      0.00%
+ 360  Ectopleura_crocea                    12.88%    passed     50.45%
+ 361  Ectopleura_dumortierii               12.11%    passed     55.10%
+ 362  Ectopleura_larynx                    12.19%    passed     58.80%
+ 363  Ectopleura_marina                    13.00%    passed     81.38%
+ 364  Ectopleura_obypa                     22.69%    passed     56.89%
+ 365  Ectopleura_wrighti                   13.46%    passed     45.71%
+ 366  Edwardsia_elegans                    11.78%    failed      0.19%
+ 367  Edwardsia_japonica                   59.66%    passed     52.28%
+ 368  Edwardsia_timida                     11.13%    failed      0.26%
+ 369  Edwardsianthus_gilbertensis          65.35%    passed     19.65%
+ 370  Edwardsiidae_sp                      81.54%    failed      0.04%
+ 371  Eirene_brevistylus                   12.19%    failed      3.60%
+ 372  Eirene_ceylonensis                   60.10%    failed      0.00%
+ 373  Eirene_hexanemalis                   84.16%    failed      0.00%
+ 374  Eirene_kambara                       12.61%    passed     62.86%
+ 375  Eirene_lacteoides                    69.35%    passed      7.40%
+ 376  Eirene_menoni                        60.43%    failed      0.00%
+ 377  Eirene_pyramidalis                   60.42%    failed      0.00%
+ 378  Eirene_viridula                      12.82%    passed     79.37%
+ 379  Elatopathes_abietina                 12.26%    failed      0.00%
+ 380  Eleutheria_dichotoma                 68.92%    failed      0.19%
+ 381  Eleutherobia_aurea                   45.74%    failed      0.00%
+ 382  Ellisella_sp                         59.71%    passed     23.64%
+ 383  Enallopsammia_rostrata               60.21%    passed      8.36%
+ 384  Epiactis_australiensis               59.90%    passed     43.98%
+ 385  Epiactis_fernaldi                    12.69%    failed      0.00%
+ 386  Epiactis_georgiana                   12.14%    failed      0.00%
+ 387  Epiactis_handi                       11.74%    failed      0.00%
+ 388  Epiactis_japonica                    58.59%    passed     61.93%
+ 389  Epiactis_lisbethae                   12.43%    failed      0.00%
+ 390  Epiactis_prolifera                   12.07%    failed      0.00%
+ 391  Epiactis_ritteri                     58.92%    passed     58.16%
+ 392  Epiactis_thompsoni                   59.41%    passed     67.80%
+ 393  Epizoanthus_arenaceus                60.36%    passed     14.03%
+ 394  Epizoanthus_californicus             81.35%    failed      0.36%
+ 395  Epizoanthus_couchii                  69.24%    passed     58.29%
+ 396  Epizoanthus_cutressi                 81.38%    failed      0.90%
+ 397  Epizoanthus_fiordicus                87.30%    passed      5.86%
+ 398  Epizoanthus_illoricatus              51.18%    passed     39.61%
+ 399  Epizoanthus_incrustatus              81.38%    failed      0.37%
+ 400  Epizoanthus_lindhali                 63.18%    passed     17.52%
+ 401  Epizoanthus_minutus                  81.37%    failed      0.40%
+ 402  Epizoanthus_paguricola               12.49%    passed     16.45%
+ 403  Epizoanthus_patagonichus             81.35%    failed      0.36%
+ 404  Epizoanthus_scotinus                  9.65%    failed      1.18%
+ 405  Epizoanthus_sp                       73.34%    passed     26.32%
+ 406  Epizoanthus_vagus                    84.57%    failed      2.26%
+ 407  Erenna_sp                            22.11%    failed      0.18%
+ 408  Errinopora_nanneca                   68.92%    failed      0.09%
+ 409  Erythropodium_caribaeorum            66.50%    passed      6.52%
+ 410  Eucheilota_bakeri                    69.24%    failed      1.71%
+ 411  Eucheilota_maculata                  12.05%    passed     61.18%
+ 412  Eucheilota_menoni                    12.78%    passed     73.17%
+ 413  Eucheilota_sp                        13.23%    passed     79.20%
+ 414  Eudendrium_californicum              21.71%    passed     77.51%
+ 415  Eudendrium_capillare                 37.03%    passed     40.76%
+ 416  Eudendrium_caraiuru                  28.13%    passed      7.87%
+ 417  Eudendrium_carneum                   21.21%    passed     18.68%
+ 418  Eudendrium_glomeratum                21.15%    passed     62.30%
+ 419  Eudendrium_racemosum                 11.74%    passed     87.70%
+ 420  Eugymnanthea_inquilina               60.52%    failed      0.09%
+ 421  Eugymnanthea_japonica                60.54%    failed      0.00%
+ 422  Euphyllia_ancora                     73.07%    failed      0.00%
+ 423  Euphysa_aurata                       13.74%    passed     18.65%
+ 424  Euphysa_japonica                     14.48%    passed     11.66%
+ 425  Euphysa_tentaculata                  13.18%    passed     18.90%
+ 426  Eusmilia_fastigiata                  80.80%    failed      0.00%
+ 427  Eutima_curva                         22.13%    passed     88.47%
+ 428  Eutima_gegenbauri                    12.72%    passed     36.17%
+ 429  Eutima_gracilis                      83.63%    failed      0.00%
+ 430  Eutima_krampi                        60.58%    failed      0.00%
+ 431  Eutima_levuka                        60.60%    failed      0.00%
+ 432  Eutima_sapinhoa                      29.72%    failed      0.01%
+ 433  Eutima_sp                            68.52%    failed      1.51%
+ 434  Eutonina_indicans                    83.63%    failed      0.00%
+ 435  Exaiptasia_pallida                   58.74%    passed     37.02%
+ 436  Exocoelactis_actinostoloides         81.99%    passed     13.27%
+ 437  Fabienna_sphaerica                   18.90%    passed     65.58%
+ 438  Fanellia_euthyeia                    66.48%    passed     12.90%
+ 439  Fanellia_korema                      67.78%    passed     14.16%
+ 440  Fanellia_medialis                    66.48%    passed     12.90%
+ 441  Fanellia_sp                          66.48%    passed     12.90%
+ 442  Fannyella_rossii                     66.48%    passed     14.43%
+ 443  Fannyella_spinosa                    66.51%    passed     13.71%
+ 444  Favia_favus                          80.43%    failed      0.00%
+ 445  Favia_fragum                         74.02%    failed      0.00%
+ 446  Favites_abdita                       80.43%    failed      0.00%
+ 447  Favites_sp                           82.98%    failed      0.00%
+ 448  Flabellum_deludens                   84.69%    failed      0.02%
+ 449  Forskalia_asymmetrica                69.84%    failed      1.86%
+ 450  Forskalia_edwardsi                   22.13%    passed     25.90%
+ 451  Forskalia_formosa                    69.78%    failed      0.46%
+ 452  Forskalia_tholoides                  69.97%    failed      1.55%
+ 453  Fungia_scutaria                      60.14%    failed      0.00%
+ 454  Fungia_sp                            82.27%    failed      0.00%
+ 455  Fungiacyathus_marenzelleri           58.08%    failed      0.97%
+ 456  Funiculina_sp                        71.34%    passed     14.33%
+ 457  Galatheanthemum_profundale           58.55%    passed     50.68%
+ 458  Galatheanthemum_sp                   10.86%    failed      0.00%
+ 459  Galaxea_astreata                     74.37%    failed      0.00%
+ 460  Galaxea_fascicularis                 72.39%    failed      0.00%
+ 461  Galaxea_sp                           70.00%    passed     21.26%
+ 462  Gangliostoma_guangdongensis          84.49%    failed      0.00%
+ 463  Gardineria_hawaiiensis               74.91%    failed      0.00%
+ 464  Gardineria_paradoxa                  74.97%    failed      0.00%
+ 465  Gardineroseris_planulata             79.35%    failed      0.00%
+ 466  Garveia_annulata                     45.59%    passed     37.25%
+ 467  Garveia_grisea                       28.10%    failed      0.89%
+ 468  Geryonia_proboscidalis               13.20%    passed     81.26%
+ 469  Glyphoperidium_bursa                 28.07%    failed      0.00%
+ 470  Gonactinia_prolifera                 11.10%    failed      0.00%
+ 471  Goniastrea_retiformis                80.42%    failed      0.00%
+ 472  Gonionemus_sp                        83.60%    failed      0.00%
+ 473  Goniopora_columna                    72.20%    failed      0.00%
+ 474  Goniopora_gracilis                   83.45%    failed      0.00%
+ 475  Goniopora_minor                      79.86%    failed      0.03%
+ 476  Goniopora_planulata                  74.48%    failed      0.00%
+ 477  Goniopora_sp                         72.12%    failed      0.00%
+ 478  Goniopora_stokesi                    79.02%    failed      0.00%
+ 479  Gonothyraea_loveni                   21.54%    failed      0.07%
+ 480  Gymnangium_gracilicaule              22.40%    passed     10.72%
+ 481  Gymnopraia_lapislazula               69.26%    failed      0.22%
+ 482  Gyractis_sesere                      59.06%    passed     64.33%
+ 483  Halammohydra_sp                      75.65%    failed      0.01%
+ 484  Halcampa_duodecimcirrata             64.20%    passed     90.26%
+ 485  Halcampoides_purpurea                10.98%    failed      0.00%
+ 486  Halcurias_pilatus                    17.32%    failed      0.00%
+ 487  Halecium_beanii                      69.47%    failed      1.48%
+ 488  Halecium_halecinum                   12.54%    passed     59.47%
+ 489  Halecium_incertus                    39.54%    failed      0.01%
+ 490  Halecium_labrosum                    22.51%    failed      3.49%
+ 491  Halecium_lenticulare                 22.40%    failed      0.56%
+ 492  Halecium_mediterraneum               69.41%    failed      1.74%
+ 493  Halecium_muricatum                   22.54%    passed      6.58%
+ 494  Halecium_pusillum                    22.79%    passed     12.79%
+ 495  Haliclystus_antarcticus              45.86%    failed      0.54%
+ 496  Haliclystus_borealis                 21.80%    passed      6.88%
+ 497  Haliclystus_californiensis           12.35%    passed      5.47%
+ 498  Haliclystus_inabai                   12.40%    passed      5.92%
+ 499  Haliclystus_octoradiatus             12.73%    passed      9.98%
+ 500  Haliclystus_sanjuanensis             12.05%    failed      3.16%
+ 501  Haliclystus_sp                       15.15%    passed     10.27%
+ 502  Haliclystus_stejnegeri               12.38%    passed      8.73%
+ 503  Haliclystus_tenuis                   12.38%    passed      9.05%
+ 504  Haliplanella_lineata                 10.83%    failed      0.00%
+ 505  Haliscera_conica                     28.59%    passed     12.39%
+ 506  Halistemma_rubrum                    11.78%    passed      6.97%
+ 507  Haloclava_producta                   11.34%    failed      0.00%
+ 508  Haloclava_sp                         20.65%    failed      0.00%
+ 509  Halopteris_carinata                  21.53%    failed      2.64%
+ 510  Halopteris_catharina                 33.91%    passed     57.79%
+ 511  Halopteris_diaphana                  21.56%    passed     18.24%
+ 512  Halopteris_liechtensternii           22.36%    failed      2.48%
+ 513  Halopteris_minuta                    22.63%    passed     15.63%
+ 514  Halopteris_sp                        29.42%    failed      0.07%
+ 515  Harenactis_argentina                 58.73%    passed     71.70%
+ 516  Hataia_parva                         60.76%    failed      0.00%
+ 517  Hebella_venusta                      32.81%    passed     13.19%
+ 518  Helgicirrha_brevistyla               60.42%    failed      0.00%
+ 519  Helgicirrha_malayensis               60.40%    failed      0.00%
+ 520  Helicogorgia_flagellata              78.67%    passed      5.11%
+ 521  Heliofungia_actiniformis             82.27%    failed      0.00%
+ 522  Heptaprimnoa_patagonica              72.64%    passed     20.13%
+ 523  Heteractis_aurora                    74.04%    passed      8.89%
+ 524  Heteractis_magnifica                  3.91%    failed      0.00%
+ 525  Hippopodius_hippopus                 29.84%    passed     21.38%
+ 526  Hormathia_armata                     10.83%    failed      0.00%
+ 527  Hormathia_lacunifera                 10.80%    failed      0.00%
+ 528  Hormathia_pectinata                  58.62%    passed     54.01%
+ 529  Hormosoma_scotti                     11.33%    failed      0.01%
+ 530  Hurlizoanthus_parrishi               60.05%    passed     39.52%
+ 531  Hurlizoanthus_sp                     84.93%    failed      1.07%
+ 532  Hybocodon_chilensis                  12.61%    passed     11.62%
+ 533  Hybocodon_prolifer                   13.32%    passed     27.42%
+ 534  Hydnophora_exesa                     72.11%    failed      0.00%
+ 535  Hydnophora_rigida                    84.10%    failed      0.00%
+ 536  Hydra_canadensis                     35.93%    passed     91.26%
+ 537  Hydra_carnea                         87.13%    failed      0.00%
+ 538  Hydra_circumcincta                   11.77%    passed     62.52%
+ 539  Hydra_hymanae                        12.52%    passed     76.62%
+ 540  Hydra_magnipapillata                 69.95%    failed      2.11%
+ 541  Hydra_oligactis                      59.51%    failed      0.00%
+ 542  Hydra_oxycnida                       83.66%    failed      0.00%
+ 543  Hydra_polymorphus                    69.84%    failed      1.91%
+ 544  Hydra_robusta                        62.98%    failed      0.00%
+ 545  Hydra_sinensis                       70.66%    failed      0.00%
+ 546  Hydra_sp                             60.91%    failed      0.00%
+ 547  Hydra_utahensis                      11.92%    passed     80.48%
+ 548  Hydra_viridis                        69.98%    failed      2.53%
+ 549  Hydra_viridissima                    11.83%    passed     96.17%
+ 550  Hydra_vulgaris                       11.74%    passed     91.09%
+ 551  Hydractinia_echinata                 59.86%    failed      0.00%
+ 552  Hydractinia_serrata                  68.94%    failed      0.14%
+ 553  Hydractinia_sp                       11.75%    passed     77.21%
+ 554  Hydractinia_symbiolongicarpus        21.21%    passed     73.04%
+ 555  Hydrallmania_falcata                 21.84%    failed      2.41%
+ 556  Hydranthea_margarica                 22.04%    failed      4.36%
+ 557  Hydrichthella_epigorgia              12.57%    passed     40.74%
+ 558  Hydrichthys_boycei                   21.13%    passed     52.49%
+ 559  Hydrissa_sodalis                     28.12%    failed      0.34%
+ 560  Hydrodendron_mirabile                22.33%    passed     33.30%
+ 561  Hydrozoanthidae_sp                   87.28%    passed      9.36%
+ 562  Hydrozoanthus_gracilis               86.21%    passed     18.81%
+ 563  Idiellana_pristis                    68.94%    failed      1.36%
+ 564  Ifalukella_yanii                     66.48%    failed      3.35%
+ 565  Inferiolabiata_lowei                 69.05%    failed      0.28%
+ 566  Iridogorgia_magnispiralis            59.65%    passed     45.13%
+ 567  Iridogorgia_splendens                71.37%    passed     56.50%
+ 568  Isactinernus_quadrilobatus           13.58%    failed      0.00%
+ 569  Isactinia_olivacea                   70.57%    passed     68.73%
+ 570  Isanthus_capensis                    10.74%    failed      0.00%
+ 571  Isarachnanthus_maderensis            66.99%    failed      1.36%
+ 572  Isarachnanthus_nocturnus             26.25%    failed      0.00%
+ 573  Isaurus_sp                           76.71%    passed     77.83%
+ 574  Isaurus_tuberculatus                 75.03%    passed     69.50%
+ 575  Isidella_sp                          60.08%    passed      8.40%
+ 576  Isididae_sp                          60.52%    failed      4.12%
+ 577  Isidoides_armata                     71.34%    passed     11.43%
+ 578  Isopora_palifera                     79.26%    failed      0.00%
+ 579  Isosicyonis_alba                     35.22%    failed      0.00%
+ 580  Isosicyonis_striata                  14.03%    failed      0.00%
+ 581  Isotealia_antarctica                 83.36%    failed      4.48%
+ 582  Isotealia_sp                         70.52%    passed     99.83%
+ 583  Isozoanthus_giganteus                81.37%    failed      0.06%
+ 584  Isozoanthus_sp                       81.35%    failed      0.15%
+ 585  Janaria_mirabilis                    21.21%    passed     54.65%
+ 586  Kadosactis_antarctica                11.01%    failed      0.00%
+ 587  Kauluzoanthus_kerbyi                 60.05%    passed     40.02%
+ 588  Keratoisidinae_sp                    66.51%    failed      3.88%
+ 589  Keratoisis_sp                        59.65%    passed     19.48%
+ 590  Kirchenpaueria_pinnata               22.48%    passed      9.69%
+ 591  Kirchenpaueria_similis               22.51%    passed      8.51%
+ 592  Koellikerina_fasciculata             28.13%    failed      0.11%
+ 593  Korsaranthus_sp                      21.68%    failed      0.02%
+ 594  Kulamanamana_haumeaae                60.05%    passed     42.57%
+ 595  Lafoea_dumosa                        47.65%    passed     50.63%
+ 596  Laomedea_calceolifera                13.02%    passed     18.86%
+ 597  Laomedea_flexuosa                    59.81%    failed      0.00%
+ 598  Laomedea_inornata                    69.23%    failed      1.38%
+ 599  Laviactis_lucida                     59.41%    passed     39.77%
+ 600  Leiopathes_sp                        12.34%    failed      0.43%
+ 601  Lemnalia_sp                          66.48%    failed      2.07%
+ 602  Lensia_conoidea                      69.18%    passed      7.50%
+ 603  Lepidisis_sp                         59.65%    passed     17.95%
+ 604  Lepidopora_microstylus               14.30%    passed     76.60%
+ 605  Lepidopora_polystichopora            69.01%    failed      0.31%
+ 606  Lepidopora_sp                        68.94%    failed      0.10%
+ 607  Lepidotheca_chauliostylus            68.92%    failed      0.41%
+ 608  Lepidotheca_sp                       68.92%    failed      0.04%
+ 609  Leptastrea_bottae                    85.19%    failed      0.00%
+ 610  Leptogorgia_capverdensis             21.95%    failed      0.00%
+ 611  Leptogorgia_chilensis                66.48%    failed      2.29%
+ 612  Leptohelia_flexibilis                68.92%    failed      0.18%
+ 613  Leptopsammia_pruvoti                 82.18%    failed      0.00%
+ 614  Leptoria_phrygia                     73.21%    failed      0.00%
+ 615  Leptoseris_sp                        78.90%    failed      0.00%
+ 616  Letepsammia_formosissima             74.73%    failed      0.00%
+ 617  Leuckartiara_octona                  13.38%    passed     47.59%
+ 618  Leuckartiara_sp                      83.96%    failed      0.00%
+ 619  Lillipathes_wingi                    39.09%    passed     10.31%
+ 620  Lilyopsis_fluoracantha               66.47%    failed      0.00%
+ 621  Limnocnida_tanganyicae               21.30%    failed      0.40%
+ 622  Lipkea_ruspoliana                    12.60%    failed      0.00%
+ 623  Lipkea_sp                            13.38%    failed      0.00%
+ 624  Liponema_brevicornis                 58.73%    passed     40.15%
+ 625  Liponema_multiporum                  82.85%    failed      3.65%
+ 626  Liriope_tetraphylla                  59.56%    failed      0.00%
+ 627  Lizzia_blondina                      18.71%    passed      9.33%
+ 628  Lobophyllia_hemprichii               74.69%    failed      0.00%
+ 629  Lovenella_assimilis                  61.26%    failed      0.00%
+ 630  Lovenella_gracilis                   69.24%    failed      1.96%
+ 631  Lucernaria_bathyphila                15.82%    failed      0.05%
+ 632  Lucernaria_janetae                   21.78%    failed      0.00%
+ 633  Lucernaria_quadricornis              70.21%    passed     92.77%
+ 634  Lucernaria_sainthilairei             12.37%    failed      0.03%
+ 635  Lucernaria_sp                        12.37%    failed      0.02%
+ 636  Lytocarpia_canepa                    69.20%    passed      7.02%
+ 637  Lytocarpia_sp                        25.31%    failed      0.33%
+ 638  Macrodactyla_doreenensis             58.58%    passed     30.79%
+ 639  Macrorhynchia_philippina             21.68%    passed     11.23%
+ 640  Macrorhynchia_phoenicea              22.43%    failed      2.41%
+ 641  Macrorhynchia_sibogae                69.21%    failed      0.08%
+ 642  Madracis_mirabilis                   66.48%    failed      0.08%
+ 643  Madracis_pharensis                   82.02%    failed      0.00%
+ 644  Madrepora_oculata                    86.53%    failed      0.00%
+ 645  Maeotias_marginata                   12.51%    passed     85.44%
+ 646  Malagazzia_carolinae                 83.63%    failed      0.00%
+ 647  Manania_gwilliami                    12.38%    failed      3.73%
+ 648  Manania_uchidai                      21.80%    failed      0.38%
+ 649  Manicina_areolata                    80.78%    failed      0.00%
+ 650  Marrus_orthocanna                    83.63%    failed      0.00%
+ 651  Mastigias_papua                      69.03%    passed      6.46%
+ 652  Meandrina_meandrites                 80.43%    failed      0.00%
+ 653  Melicertissa_sp                      21.36%    passed     10.66%
+ 654  Melicertum_octocostatum              12.32%    passed     63.58%
+ 655  Melithaea_ochracea                   66.60%    failed      3.04%
+ 656  Merulina_ampliata                    80.40%    failed      0.00%
+ 657  Merulina_scabricula                  84.84%    failed      0.00%
+ 658  Mesozoanthus_fossii                  63.18%    passed     28.85%
+ 659  Metafannyella_kuekenthali            66.53%    passed      7.14%
+ 660  Metallogorgia_macrospina             71.35%    passed     53.55%
+ 661  Metallogorgia_melanotrichos          59.78%    passed     43.20%
+ 662  Metarhodactis_sp                     57.61%    failed      3.09%
+ 663  Metedwardsia_akkeshi                 58.32%    passed     48.28%
+ 664  Metridium_senile                      9.50%    failed      0.06%
+ 665  Microhydrula_limopsicola             69.06%    passed     77.93%
+ 666  Microzoanthus_kagerou                86.63%    failed      4.68%
+ 667  Microzoanthus_occultus               86.18%    passed     12.08%
+ 668  Millepora_sp                         21.35%    passed     24.92%
+ 669  Mirostenella_articulata              66.48%    passed      8.76%
+ 670  Mirostenella_sp                      66.48%    passed      9.12%
+ 671  Mitrocomella_brownei                 39.66%    failed      3.90%
+ 672  Mitrocomella_niwai                   22.69%    passed     47.17%
+ 673  Modeeria_rotunda                     32.52%    passed     20.93%
+ 674  Moerisia_inkermanica                 12.04%    passed     40.69%
+ 675  Moerisia_sp                          21.51%    passed     53.77%
+ 676  Monobrachium_parasiticum             68.94%    failed      0.21%
+ 677  Monostaechas_quadridens              22.39%    passed     32.09%
+ 678  Monotheca_obliqua                    23.82%    failed      0.00%
+ 679  Montastraea_annularis                56.31%    failed      0.00%
+ 680  Montastraea_cavernosa                80.42%    failed      0.00%
+ 681  Montastraea_faveolata                80.42%    failed      0.00%
+ 682  Montastraea_franksi                  10.14%    passed      5.54%
+ 683  Montastraea_sp                       84.85%    failed      0.00%
+ 684  Montastraea_valenciennesi            80.40%    failed      0.00%
+ 685  Montipora_capitata                   83.78%    failed      0.41%
+ 686  Montipora_digitata                   48.63%    failed      0.15%
+ 687  Montipora_dilatata                   83.78%    failed      0.43%
+ 688  Montipora_flabellata                 83.78%    failed      0.43%
+ 689  Montipora_patula                     83.78%    failed      0.56%
+ 690  Montipora_sp                         72.06%    failed      0.00%
+ 691  Montipora_verrilli                   83.78%    failed      0.56%
+ 692  Morbakka_virulenta                   28.69%    passed     11.09%
+ 693  Muggiaea_atlantica                   69.26%    passed      8.90%
+ 694  Muriceides_sp                        74.05%    failed      0.84%
+ 695  Mussa_angulosa                       80.42%    failed      0.00%
+ 696  Mycedium_elephantotus                80.65%    failed      0.00%
+ 697  Mycedium_sp                          84.07%    failed      0.00%
+ 698  Mycetophyllia_aliciae                80.42%    failed      0.00%
+ 699  Nanomia_bijuga                       11.78%    passed     12.66%
+ 700  Nanozoanthus_harenaceus              83.69%    passed     23.06%
+ 701  Narella_bowersi                      69.06%    passed     88.06%
+ 702  Narella_clavata                      66.53%    passed     21.38%
+ 703  Narella_dichotoma                    66.59%    passed     20.20%
+ 704  Narella_sp                           66.50%    passed     10.10%
+ 705  Narella_versluysi                    59.69%    passed     34.80%
+ 706  Nausithoe_atlantica                  66.47%    failed      0.25%
+ 707  Nausithoe_rubra                      28.16%    failed      1.90%
+ 708  Nausithoe_sp                         66.50%    failed      0.23%
+ 709  Nectadamas_diomedeae                 68.92%    failed      0.03%
+ 710  Nectopyramis_natans                  61.76%    failed      0.00%
+ 711  Nectopyramis_sp                      21.15%    passed     81.26%
+ 712  Nemalecium_lighti                    22.70%    failed      0.04%
+ 713  Nemanthus_nitidus                    11.54%    failed      0.00%
+ 714  Nematostella_vectensis               15.19%    passed     20.46%
+ 715  Nemertesia_antennina                 23.35%    failed      0.16%
+ 716  Nemopilema_nomurai                   61.11%    failed      0.02%
+ 717  Nemopsis_bachei                      83.63%    failed      0.00%
+ 718  Neoturris_breviconis                 21.77%    passed     53.66%
+ 719  Neozoanthus_sp                       83.95%    passed     27.96%
+ 720  Notocyathus_sp                       82.89%    failed      0.00%
+ 721  Obelia_bidentata                     13.20%    passed     17.87%
+ 722  Obelia_dichotoma                     12.35%    passed     79.94%
+ 723  Obelia_geniculata                    13.06%    passed     75.72%
+ 724  Obelia_longissima                    12.61%    passed     90.28%
+ 725  Obelia_sp                            83.63%    failed      0.00%
+ 726  Octophialucium_indicum               21.47%    passed     63.88%
+ 727  Octophialucium_medium                84.13%    failed      0.00%
+ 728  Oculina_patagonica                   84.12%    failed      0.00%
+ 729  Odessia_maeotica                     25.96%    passed     11.78%
+ 730  Olindias_formosus                    69.14%    failed      0.39%
+ 731  Olindias_phosphorica                 12.72%    passed     53.04%
+ 732  Olindias_sambaquiensis               21.84%    passed     87.86%
+ 733  Onogorgia_nodosa                     66.50%    passed      6.79%
+ 734  Opercularella_lacerata               68.97%    failed      3.46%
+ 735  Opercularella_pumila                 69.27%    failed      1.02%
+ 736  Ophidiogorgia_kuekenthali            66.48%    passed      7.79%
+ 737  Ophidiogorgia_sp                     66.48%    passed      7.83%
+ 738  Orthopyxis_caliculata                84.13%    failed      0.00%
+ 739  Orthopyxis_crenata                   83.87%    failed      0.00%
+ 740  Orthopyxis_everta                    59.87%    failed      0.37%
+ 741  Orthopyxis_integra                   59.71%    failed      0.01%
+ 742  Orthopyxis_mianzani                  12.48%    passed      7.53%
+ 743  Orthopyxis_sargassicola              12.11%    passed     42.15%
+ 744  Oswaldella_grandis                   28.35%    failed      0.01%
+ 745  Oswaldella_laertesi                  28.30%    failed      0.01%
+ 746  Oswaldella_shetlandica               21.62%    failed      2.44%
+ 747  Oswaldella_stepanjantsae             28.36%    failed      0.01%
+ 748  Oulactis_muscosa                     59.32%    passed     44.09%
+ 749  Oulastrea_crispata                   80.49%    failed      0.00%
+ 750  Oulophyllia_sp                       80.42%    failed      0.00%
+ 751  Pachycerianthus_fimbriatus           66.50%    failed      3.81%
+ 752  Pachycerianthus_magnus               66.99%    failed      1.43%
+ 753  Pachycerianthus_sp                   26.04%    failed      0.00%
+ 754  Pachycordyle_pusilla                 18.80%    passed     40.07%
+ 755  Palythoa_caribaeorum                 85.11%    failed      2.37%
+ 756  Palythoa_grandiflora                 85.35%    failed      3.63%
+ 757  Palythoa_grandis                     87.57%    passed      8.72%
+ 758  Palythoa_heliodiscus                 75.71%    passed     47.26%
+ 759  Palythoa_mizigama                    84.34%    passed     11.49%
+ 760  Palythoa_mutuki                      75.46%    passed     41.20%
+ 761  Palythoa_sp                          54.96%    passed      9.64%
+ 762  Palythoa_tuberculosa                 75.05%    passed     36.38%
+ 763  Palythoa_umbrosa                     84.36%    passed     11.48%
+ 764  Palythoa_variabilis                  61.34%    passed      5.15%
+ 765  Pandea_sp                            28.90%    failed      1.56%
+ 766  Pantachogon_haeckeli                 12.73%    failed      1.20%
+ 767  Pantachogon_sp                       46.55%    passed     76.52%
+ 768  Paracalliactis_sp                    58.80%    passed     49.78%
+ 769  Paracalyptrophora_sp                 66.48%    passed     12.64%
+ 770  Paracyathus_pulchellus               84.13%    failed      0.00%
+ 771  Paragorgia_arborea                   67.20%    passed      6.74%
+ 772  Paragorgia_johnsoni                  66.51%    passed      5.33%
+ 773  Paragorgia_sp                        59.96%    passed     32.83%
+ 774  Paraiptasia_sp                       64.37%    passed     78.76%
+ 775  Paraisanthus_fabiani                 58.46%    passed     48.05%
+ 776  Paramuricea_biscaya                  66.48%    failed      2.18%
+ 777  Paramuricea_nr                       74.04%    failed      0.27%
+ 778  Paramuricea_placomus                 74.05%    failed      0.14%
+ 779  Paramuricea_sp                       59.63%    passed      6.18%
+ 780  Paranthus_niveus                     11.00%    failed      0.01%
+ 781  Parantipathes_sp                     11.81%    failed      0.02%
+ 782  Paraphelliactis_sp                   59.36%    passed     46.18%
+ 783  Parastenella_sp                      66.48%    passed     14.34%
+ 784  Parastenella_spinosa                 66.54%    passed     14.04%
+ 785  Parazoanthid_sp                      51.03%    passed     77.30%
+ 786  Parazoanthus_anguicomus              73.36%    passed     16.25%
+ 787  Parazoanthus_axinellae                0.29%    failed      0.00%
+ 788  Parazoanthus_capensis                81.37%    failed      0.42%
+ 789  Parazoanthus_catenularis             81.37%    failed      0.51%
+ 790  Parazoanthus_elongatus               61.91%    passed     23.91%
+ 791  Parazoanthus_gracilis                49.01%    passed     82.79%
+ 792  Parazoanthus_juanfernandezii         81.45%    failed      0.62%
+ 793  Parazoanthus_parasiticus             73.34%    passed     19.05%
+ 794  Parazoanthus_puertoricense           47.90%    passed     45.64%
+ 795  Parazoanthus_sp                      47.94%    passed     35.32%
+ 796  Parazoanthus_swiftii                 48.09%    passed     47.00%
+ 797  Parazoanthus_tunicans                47.87%    passed     81.22%
+ 798  Pavona_frondifera                    74.46%    failed      0.00%
+ 799  Pavona_varians                       58.11%    failed      1.37%
+ 800  Peachia_cylindrica                   58.94%    passed     47.33%
+ 801  Pectinia_alcicornis                  74.91%    failed      0.00%
+ 802  Pelagia_noctiluca                    69.01%    passed     81.11%
+ 803  Pennaria_disticha                    22.42%    passed     74.56%
+ 804  Pennaria_sp                          14.59%    passed     78.65%
+ 805  Perarella_schneideri                 28.10%    failed      1.22%
+ 806  Periphylla_periphylla                69.56%    passed      6.23%
+ 807  Perissogorgia_monile                 66.56%    passed     10.34%
+ 808  Perissogorgia_vitrea                 66.51%    passed     44.03%
+ 809  Peronanthus_sp                       11.18%    failed      0.00%
+ 810  Phacellophora_camtschatica           12.04%    passed     21.93%
+ 811  Phacellophora_sp                     69.03%    passed     39.72%
+ 812  Phanopathes_expansa                  11.98%    failed      0.01%
+ 813  Phellia_exlex                        22.22%    failed      0.00%
+ 814  Phellia_gausapata                     9.65%    failed      0.00%
+ 815  Phialella_quadrata                   22.30%    passed     26.88%
+ 816  Phyllangia_mouchezii                 59.99%    failed      0.00%
+ 817  Phyllorhiza_punctata                 59.66%    failed      0.51%
+ 818  Phymanthus_crucifer                  83.51%    failed      1.25%
+ 819  Phymanthus_loligo                    58.85%    failed      0.00%
+ 820  Physalia_physalis                    14.09%    passed     68.06%
+ 821  Physalia_utriculus                   68.94%    passed     13.49%
+ 822  Physogyra_lichtensteini              81.91%    failed      0.00%
+ 823  Physophora_hydrostatica              11.99%    failed      3.23%
+ 824  Placogorgia_sp                       36.26%    failed      0.14%
+ 825  Platygyra_daedalea                   84.19%    failed      0.00%
+ 826  Platygyra_sinensis                   80.86%    failed      0.00%
+ 827  Platygyra_sp                         85.07%    failed      0.00%
+ 828  Plerogyra_sp                         81.01%    failed      0.00%
+ 829  Plesiastrea_sp                       76.39%    failed      0.00%
+ 830  Pliobothrus_echinatus                68.91%    failed      0.02%
+ 831  Plumarella_delicatissima             66.83%    passed      7.43%
+ 832  Plumarella_diadema                   66.50%    passed      8.80%
+ 833  Plumarella_sp                        66.50%    passed      5.95%
+ 834  Plumarella_undulata                  66.51%    passed      9.54%
+ 835  Plumularia_duseni                    83.87%    failed      0.00%
+ 836  Plumularia_filicaulis                23.13%    failed      0.03%
+ 837  Plumularia_habereri                  31.09%    failed      0.02%
+ 838  Plumularia_hyalina                   15.31%    failed      0.65%
+ 839  Plumularia_lagenifera                15.51%    passed     14.51%
+ 840  Plumularia_margaretta                23.05%    failed      0.01%
+ 841  Plumularia_mooreana                  83.83%    failed      0.00%
+ 842  Plumularia_pulchella                 30.64%    failed      0.00%
+ 843  Plumularia_setacea                   13.67%    failed      0.91%
+ 844  Plumularia_setaceoides               14.56%    failed      0.17%
+ 845  Plumularia_sp                        23.85%    failed      0.00%
+ 846  Plumularia_spiralis                  24.54%    failed      0.05%
+ 847  Plumularia_strictocarpa              13.76%    failed      3.26%
+ 848  Pocillopora_damicornis               74.36%    failed      0.00%
+ 849  Pocillopora_meandrina                59.68%    failed      0.01%
+ 850  Pocillopora_sp                       69.86%    failed      2.71%
+ 851  Podocoryna_borealis                  68.95%    failed      0.29%
+ 852  Podocoryna_carnea                    68.95%    failed      0.43%
+ 853  Podocoryna_exigua                    21.19%    passed     48.40%
+ 854  Podocoryna_hayamaensis               28.13%    failed      1.23%
+ 855  Podocoryna_pruvoti                   28.13%    failed      1.03%
+ 856  Podocoryna_sp                        68.95%    failed      0.59%
+ 857  Podocorynoides_minima                21.63%    passed     55.11%
+ 858  Polycyathus_muellerae                84.13%    failed      0.00%
+ 859  Polyorchis_haplus                    21.13%    passed     62.33%
+ 860  Polyorchis_penicillatus              70.01%    failed      0.25%
+ 861  Poralia_sp                           69.26%    passed     37.59%
+ 862  Porites_astreoides                   78.96%    failed      0.00%
+ 863  Porites_branneri                     78.96%    failed      0.00%
+ 864  Porites_compressa                    72.83%    failed      0.00%
+ 865  Porites_cylindrica                   66.51%    failed      0.58%
+ 866  Porites_divaricata                   78.96%    failed      0.00%
+ 867  Porites_lobata                       85.59%    failed      0.00%
+ 868  Porites_lutea                        79.00%    failed      0.00%
+ 869  Porites_nigrescens                   81.37%    failed      0.00%
+ 870  Porites_porites                      78.96%    failed      0.00%
+ 871  Porites_sp                           72.08%    failed      0.00%
+ 872  Porpita_porpita                      11.92%    passed     37.55%
+ 873  Porpita_sp                           21.30%    passed     77.44%
+ 874  Praya_dubia                          14.72%    failed      0.99%
+ 875  Praya_sp                             68.08%    failed      0.11%
+ 876  Preactis_millardae                   21.83%    failed      0.10%
+ 877  Primnoa_pacifica                     60.10%    passed     28.71%
+ 878  Primnoa_sp                           66.51%    passed     11.91%
+ 879  Primnoeides_sertularoides            66.48%    passed     14.31%
+ 880  Primnoeides_sp                       66.50%    passed     16.69%
+ 881  Primnoella_antarctica                66.50%    passed     10.23%
+ 882  Primnoella_chilensis                 66.51%    passed     13.33%
+ 883  Primnoella_divaricata                66.48%    passed      9.30%
+ 884  Primnoella_scotiae                   66.51%    passed      8.15%
+ 885  Primnoella_sp                        66.48%    passed     15.57%
+ 886  Primnoidae_gen                       66.48%    passed     27.45%
+ 887  Primnoidae_sp                        66.48%    passed      6.79%
+ 888  Proboscidactyla_flavicirrata         13.34%    passed      8.03%
+ 889  Proboscidactyla_ornata               13.53%    passed     10.19%
+ 890  Protanthea_simplex                   12.08%    failed      0.00%
+ 891  Protodendron_sp                      69.09%    passed     94.83%
+ 892  Pseudochrysogorgia_bellona           66.74%    passed     32.45%
+ 893  Pseudocrypthelia_pachypoma           21.16%    passed     42.84%
+ 894  Pycnotheca_mirabilis                 69.45%    failed      0.14%
+ 895  Radicipes_gracilis                   66.50%    passed     31.51%
+ 896  Radicipes_sp                         59.65%    passed     58.12%
+ 897  Ralpharia_gorgoniae                  12.54%    passed     41.57%
+ 898  Rathkea_octopunctata                 12.40%    passed     67.21%
+ 899  Relicanthus_daphneae                 11.74%    failed      0.00%
+ 900  Rhacostoma_atlantica                 28.86%    passed      5.18%
+ 901  Rhacostoma_atlanticum                22.04%    passed     67.23%
+ 902  Rhizocaulus_verticillatus            59.86%    failed      0.00%
+ 903  Rhizogeton_nudus                     21.36%    passed     18.86%
+ 904  Rhizophysa_eysenhardti               59.53%    failed      0.00%
+ 905  Rhizophysa_filiformis                59.54%    failed      0.00%
+ 906  Rhizorhagium_arenosum                83.62%    failed      0.00%
+ 907  Rhizosmilia_maculata                 84.12%    failed      0.00%
+ 908  Rhodactis_mussoides                  79.36%    failed      0.00%
+ 909  Rhodactis_rhodostoma                 68.94%    passed     76.32%
+ 910  Rhodactis_sp                         79.36%    failed      0.00%
+ 911  Rhodaniridogorgia_fragilis           71.38%    passed     51.04%
+ 912  Rhodaniridogorgia_sp                 71.44%    passed     50.01%
+ 913  Rhombopsammia_niphada                74.73%    failed      0.00%
+ 914  Rhopalonema_velatum                  12.42%    failed      3.57%
+ 915  Rhopilema_esculentum                 60.97%    failed      0.01%
+ 916  Rhopilema_sp                         69.75%    passed      9.88%
+ 917  Rhopilema_verrilli                   69.01%    passed     11.57%
+ 918  Ricordea_florida                      1.72%    failed      0.33%
+ 919  Rosacea_flaccida                     14.01%    passed     13.09%
+ 920  Sagartia_elegans                     69.03%    passed     97.01%
+ 921  Sagartia_ornata                      11.18%    failed      0.00%
+ 922  Sagartia_troglodytes                 15.63%    failed      0.01%
+ 923  Sagartiogeton_erythraios             70.43%    passed     95.13%
+ 924  Sagartiogeton_laceratus              10.79%    failed      0.00%
+ 925  Sagartiogeton_undatus                10.85%    failed      0.00%
+ 926  Salacia_desmoides                    69.05%    failed      0.03%
+ 927  Sanderia_malayensis                  69.00%    passed      9.59%
+ 928  Sarcophyton_sp                       66.48%    failed      2.46%
+ 929  Sarcophyton_trocheliophorum          83.74%    failed      0.00%
+ 930  Sarsia_apicula                       68.92%    failed      0.55%
+ 931  Sarsia_lovenii                       11.77%    passed     37.63%
+ 932  Sarsia_princeps                      16.56%    passed     21.07%
+ 933  Sarsia_striata                       14.36%    passed     77.09%
+ 934  Sarsia_tubulosa                      11.75%    passed     47.09%
+ 935  Savalia_savaglia                      9.31%    failed      0.00%
+ 936  Savalia_sp                           76.56%    passed     39.88%
+ 937  Schizopathes_affinis                 67.23%    passed     48.29%
+ 938  Schizotricha_crassa                  28.36%    failed      0.36%
+ 939  Schizotricha_falcata                 28.35%    failed      0.80%
+ 940  Schizotricha_nana                    28.59%    failed      1.21%
+ 941  Schizotricha_turqueti                28.35%    failed      0.33%
+ 942  Schuchertinia_altispina              28.90%    failed      1.64%
+ 943  Schuchertinia_conchicola             34.86%    failed      0.14%
+ 944  Schuchertinia_milleri                69.21%    failed      0.09%
+ 945  Schuchertinia_sp                     28.12%    failed      0.69%
+ 946  Scolionema_suvaense                  69.84%    passed     75.01%
+ 947  Scrippsia_pacifica                   21.21%    passed     61.59%
+ 948  Sertularella_africana                22.40%    failed      0.07%
+ 949  Sertularella_cylindritheca           69.29%    failed      2.63%
+ 950  Sertularella_diaphana                21.96%    failed      0.00%
+ 951  Sertularella_ellisii                 69.17%    failed      0.22%
+ 952  Sertularella_gayi                    69.66%    failed      0.36%
+ 953  Sertularella_mediterranea            22.76%    failed      1.60%
+ 954  Sertularella_sanmatiasensis          38.83%    failed      0.09%
+ 955  Sertularia_argentea                  32.75%    passed      8.33%
+ 956  Sertularia_cupressina                22.24%    passed     12.30%
+ 957  Sertularia_distans                   21.66%    failed      1.92%
+ 958  Sertularia_marginata                 21.53%    failed      0.19%
+ 959  Sertularia_moluccana                 22.33%    failed      1.46%
+ 960  Sertularia_perpusilla                45.96%    failed      0.33%
+ 961  Sertularia_tumida                    21.53%    failed      0.18%
+ 962  Sertularia_turbinata                 21.54%    failed      0.32%
+ 963  Siderastrea_radians                  78.97%    failed      0.00%
+ 964  Siderastrea_siderea                  54.86%    failed      0.29%
+ 965  Sigiweddellia_sp                     46.07%    passed     67.59%
+ 966  Silicularia_rosea                    22.19%    failed      0.28%
+ 967  Siphonogorgia_sp                     66.57%    failed      2.31%
+ 968  Siphonophorae_sp                     66.75%    failed      0.03%
+ 969  Solanderia_ericopsis                 23.32%    passed     83.70%
+ 970  Solanderia_secunda                   13.29%    passed     74.08%
+ 971  Solmissus_marshalli                  28.15%    failed      0.05%
+ 972  Solmundella_bitentaculata            18.95%    passed     74.79%
+ 973  Sphaerocoryne_agassizii              45.44%    passed     33.90%
+ 974  Sphaeronectes_gracilis               67.19%    failed      0.30%
+ 975  Sphenopus_marsupialis                84.12%    passed     15.20%
+ 976  Staurocladia_vallentini              68.92%    failed      0.02%
+ 977  Staurocladia_wellingtoni             21.77%    passed     81.93%
+ 978  Staurodiscus_gotoi                   21.96%    passed     10.70%
+ 979  Staurodiscus_sp                      83.95%    failed      0.00%
+ 980  Stauropathes_sp                      12.22%    failed      0.05%
+ 981  Staurotheca_antarctica               32.34%    passed     47.81%
+ 982  Stegopoma_plicatile                  12.61%    passed     81.97%
+ 983  Stephalia_dilata                     23.40%    passed     51.42%
+ 984  Stephanocoenia_michelinii            72.77%    failed      0.00%
+ 985  Stephanogorgia_faulkneri             71.34%    passed      9.16%
+ 986  Stephanohelia_sp                     69.15%    failed      0.17%
+ 987  Stephanomia_amphytridis              24.14%    failed      0.66%
+ 988  Stephanthus_antarcticus              10.88%    failed      0.00%
+ 989  Stichodactyla_gigantea               58.71%    passed     54.07%
+ 990  Stichodactyla_haddoni                61.94%    passed     26.76%
+ 991  Stichodactyla_sp                     72.39%    failed      4.98%
+ 992  Stichopathes_sp                      12.23%    failed      0.01%
+ 993  Stichopathes_spiessi                 59.54%    passed     51.84%
+ 994  Stomolophus_meleagris                66.78%    failed      1.39%
+ 995  Stomphia_didemon                     12.08%    failed      0.00%
+ 996  Stomphia_selaginella                 66.15%    passed     50.30%
+ 997  Strongylocentrotus_purpuratus         4.04%    failed      0.00%
+ 998  Stylantheca_petrograpta              69.14%    failed      0.34%
+ 999  Stylaster_californicus               60.82%    failed      0.00%
+1000  Stylaster_campylecus                 69.15%    failed      0.49%
+1001  Stylaster_cancellatus                69.12%    failed      0.16%
+1002  Stylaster_duchassaingii              69.05%    failed      0.28%
+1003  Stylaster_elassotomus                69.15%    failed      2.29%
+1004  Stylaster_galapagensis               69.03%    failed      0.28%
+1005  Stylaster_horologium                 69.01%    failed      0.44%
+1006  Stylaster_imbricatus                 69.01%    failed      0.14%
+1007  Stylaster_papuensis                  69.51%    failed      0.25%
+1008  Stylaster_polyorchis                 69.12%    failed      0.11%
+1009  Stylaster_roseus                     69.24%    failed      1.24%
+1010  Stylaster_sanguineus                 69.24%    failed      0.36%
+1011  Stylaster_sp                         68.94%    failed      0.57%
+1012  Stylaster_verrillii                  69.11%    failed      0.51%
+1013  Stylopathes_sp                       39.09%    failed      4.56%
+1014  Stylophora_pistillata                56.18%    failed      0.03%
+1015  Sugiura_chengshanense                83.63%    failed      0.00%
+1016  Sulculeolaria_quadrivalvis           21.50%    passed     56.82%
+1017  Swiftia_pacifica                     74.04%    failed      0.36%
+1018  Swiftia_sp                           60.48%    passed      9.68%
+1019  Sympagohydra_tuuli                   67.61%    failed      0.00%
+1020  Symplectoscyphus_curvatus            30.82%    failed      0.14%
+1021  Symplectoscyphus_exochus             31.72%    failed      0.00%
+1022  Symplectoscyphus_glacialis           40.65%    failed      0.24%
+1023  Symplectoscyphus_turgidus            22.36%    failed      0.00%
+1024  Synhalcurias_elegans                 31.88%    failed      0.00%
+1025  Systemapora_ornata                   69.06%    failed      0.14%
+1026  Taiaroa_tauhou                       66.48%    failed      3.40%
+1027  Tamoya_haplonema                     12.25%    passed     25.79%
+1028  Tamoya_ohboya                        85.10%    failed      0.00%
+1029  Tamoya_sp                            23.97%    passed     37.73%
+1030  Tanacetipathes_barbadensis           12.32%    failed      0.01%
+1031  Telestula_sp                         66.48%    failed      1.67%
+1032  Telmatactis_sp                       60.63%    passed     72.49%
+1033  Terrazoanthus_sp                     87.57%    passed     10.02%
+1034  Tetraplatia_volitans                 19.84%    passed     63.86%
+1035  Thalamophyllia_gasti                 82.14%    failed      0.00%
+1036  Thecocodium_quadratum                83.63%    failed      0.00%
+1037  Thouarella_antarctica                66.53%    passed     11.26%
+1038  Thouarella_chilensis                 66.50%    passed     11.44%
+1039  Thouarella_coronata                  66.50%    passed     13.77%
+1040  Thouarella_crenelata                 66.51%    passed     13.27%
+1041  Thouarella_grasshoffi                59.68%    passed     15.08%
+1042  Thouarella_laxa                      66.50%    passed      7.33%
+1043  Thouarella_pendulina                 66.48%    passed      8.68%
+1044  Thouarella_sp                        66.57%    passed     17.99%
+1045  Thouarella_variabilis                66.50%    passed     13.93%
+1046  Thouarella_viridis                   66.48%    passed     11.90%
+1047  Thuiaria_thuja                       21.98%    passed     10.98%
+1048  Thyroscyphus_ramosus                 21.86%    passed     14.16%
+1049  Tiaricodon_coeruleus                 60.01%    failed      0.00%
+1050  Tiaropsidium_kelseyi                 21.98%    passed     38.75%
+1051  Tiaropsis_multicirrata               12.82%    passed     59.02%
+1052  Tima_formosa                         84.18%    failed      0.00%
+1053  Titanideum_frauenfeldii              67.28%    failed      1.22%
+1054  Tokoprymno_sp                        66.60%    passed      7.33%
+1055  Triactis_producta                    22.51%    failed      0.00%
+1056  Trichogorgia_capensis                71.34%    passed      6.53%
+1057  Trichoplax_adhaerens                  2.11%    passed      5.98%
+1058  Tripedalia_cystophora                21.74%    failed      0.01%
+1059  Trissopathes_pseudotristicha         11.80%    failed      0.06%
+1060  Tropidocyathus_labidus               82.18%    failed      0.00%
+1061  Truncatoflabellum_sp                 80.98%    failed      0.00%
+1062  Tubastraea_aurea                     79.33%    failed      0.00%
+1063  Tubastraea_coccinea                  48.82%    failed      0.30%
+1064  Tubipora_musica                      67.94%    failed      4.76%
+1065  Tubularia_indivisa                   12.70%    passed     21.22%
+1066  Turbinaria_peltata                   72.85%    failed      0.00%
+1067  Turritopsis_dohrnii                  21.12%    passed     27.40%
+1068  Turritopsis_lata                     12.23%    passed     92.72%
+1069  Turritopsis_nutricula                11.77%    passed     99.92%
+1070  Turritopsis_rubra                    84.12%    failed      0.00%
+1071  Turritopsis_sp                       21.12%    passed     26.55%
+1072  Umbellula_sp                         66.51%    passed     18.64%
+1073  Umimayanthus_chanpuru                87.16%    failed      4.35%
+1074  Umimayanthus_miyabi                  87.15%    failed      4.69%
+1075  Umimayanthus_nakama                  87.15%    failed      3.94%
+1076  Umimayanthus_sp                      87.15%    failed      4.69%
+1077  Urticina_columbiana                  83.75%    passed      8.90%
+1078  Urticina_coriacea                     1.22%    failed      0.00%
+1079  Urticina_crassicornis                47.94%    passed     76.41%
+1080  Urticina_fecunda                     70.70%    passed     18.57%
+1081  Urticina_felina                      30.41%    passed     70.94%
+1082  Urticina_grebelnyi                   59.66%    passed     70.80%
+1083  Urticina_lofotensis                  83.71%    passed      8.40%
+1084  Urticina_sp                          13.46%    passed      9.47%
+1085  Varitentacula_yantaiensis            84.34%    failed      0.00%
+1086  Velella_sp                           28.66%    passed     15.00%
+1087  Velella_velella                      21.27%    passed     69.60%
+1088  Velkovrhia_enigmatica                83.63%    failed      0.00%
+1089  Verrillactis_paguri                  58.47%    passed     37.33%
+1090  Viatrix_globulifera                  21.72%    failed      0.00%
+1091  Xenia_sp                             67.04%    failed      1.98%
+1092  Zanclea_costata                      22.90%    passed     63.01%
+1093  Zanclea_prolifera                    21.80%    passed     34.61%
+1094  Zanclea_sp                           12.20%    passed     49.29%
+1095  Zibrowius_ammophilus                 60.05%    passed     38.21%
+1096  Zibrowius_sp                         85.05%    failed      1.02%
+1097  Zoanthus_gigantus                    83.62%    passed     36.49%
+1098  Zoanthus_kuroshio                    83.62%    passed     31.46%
+1099  Zoanthus_pulchellus                  72.26%    passed     75.18%
+1100  Zoanthus_sansibaricus                73.93%    passed     97.34%
+1101  Zoanthus_sociatus                    83.62%    passed     34.46%
+1102  Zoanthus_solanderi                   87.57%    passed     28.62%
+1103  Zoanthus_sp                          74.46%    passed     97.29%
+1104  Zoanthus_vietnamensis                85.53%    passed     45.86%
+1105  Zoopilus_echinatus                   76.54%    failed      0.00%
+1106  Zyzzyzus_warreni                     37.23%    passed     13.35%
+WARNING: 632 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                49.27%  630 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 8 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Epizoanthus_patagonichus (identical to Epizoanthus_californicus) is ignored but added at the end
+NOTE: Fanellia_medialis (identical to Fanellia_euthyeia) is ignored but added at the end
+NOTE: Fanellia_sp (identical to Fanellia_euthyeia) is ignored but added at the end
+NOTE: Montipora_flabellata (identical to Montipora_dilatata) is ignored but added at the end
+NOTE: Montipora_verrilli (identical to Montipora_patula) is ignored but added at the end
+NOTE: Porites_divaricata (identical to Porites_branneri) is ignored but added at the end
+NOTE: Porites_porites (identical to Porites_branneri) is ignored but added at the end
+NOTE: Umimayanthus_sp (identical to Umimayanthus_miyabi) is ignored but added at the end
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 6.995 seconds
+NOTE: MODEL SELECTION REQUIRES 1779 MB MEMORY!
+Testing 286 DNA models (sample size: 6629) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            544460.899   2193 1093307.798  1095477.557  1108218.463
+  2  JC+I          513573.659   2194 1031535.319  1033707.547  1046452.784
+  3  JC+G4         452628.467   2194 909644.933   911817.162   924562.398
+  4  JC+I+G4       450907.126   2195 906204.251   908378.950   921128.516
+  5  JC+R2         467645.805   2195 939681.610   941856.309   954605.875
+  6  JC+R3         454866.223   2197 914126.445   916306.092   929064.308
+  7  JC+R4         450657.218   2199 905712.435   907897.037   920663.896
+  8  JC+R5         449200.907   2201 902803.815   904993.380   917768.874
+  9  JC+R6         448496.794   2203 901399.588   903594.124   916378.246
+ 10  JC+R7         448204.794   2205 900819.587   903019.103   915811.843
+ 11  JC+R8         448097.990   2207 900609.981   902814.485   915615.836
+ 12  JC+R9         448013.656   2209 900445.312   902654.812   915464.765
+ 13  JC+R10        447984.324   2211 900390.649   902605.153   915423.700
+ 14  F81           543875.658   2196 1092143.315  1094320.487  1107074.379
+ 15  F81+I         512818.153   2197 1030030.306  1032209.952  1044968.168
+ 16  F81+G4        451119.413   2197 906632.826   908812.472   921570.689
+ 17  F81+I+G4      449351.284   2198 903098.567   905280.690   918043.229
+ 18  F81+R2        466526.418   2198 937448.835   939630.958   952393.497
+ 19  F81+R3        453427.679   2200 911255.357   913442.440   926213.618
+ 20  F81+R4        449155.766   2202 902715.532   904907.582   917687.391
+ 21  F81+R5        447601.805   2204 899611.610   901808.635   914597.067
+ 22  F81+R6        446923.708   2206 898259.417   900461.426   913258.472
+ 23  F81+R7        446594.695   2208 897605.390   899812.391   912618.044
+ 24  F81+R8        446485.344   2210 897390.689   899602.690   912416.941
+ 25  F81+R9        446380.992   2212 897185.983   899402.992   912225.834
+ 26  F81+R10       446355.168   2214 897138.336   899360.362   912191.785
+ 27  K2P           533998.468   2194 1072384.935  1074557.164  1087302.400
+ 28  K2P+I         502967.978   2195 1010325.956  1012500.655  1025250.220
+ 29  K2P+G4        441028.676   2195 886447.352   888622.051   901371.617
+ 30  K2P+I+G4      439270.909   2196 882933.818   885110.989   897864.881
+ 31  K2P+R2        456437.482   2196 917266.964   919444.135   932198.027
+ 32  K2P+R3        443433.369   2198 891262.738   893444.861   906207.400
+ 33  K2P+R4        439040.303   2200 882480.606   884667.689   897438.867
+ 34  K2P+R5        437457.040   2202 879318.080   881510.130   894289.939
+ 35  K2P+R6        436716.731   2204 877841.462   880038.487   892826.919
+ 36  K2P+R7        436401.016   2206 877214.032   879416.041   892213.088
+ 37  K2P+R8        436289.807   2208 876995.615   879202.616   892008.269
+ 38  K2P+R9        436190.352   2210 876800.705   879012.706   891826.957
+ 39  K2P+R10       436159.928   2212 876743.857   878960.866   891783.708
+ 40  HKY           532826.613   2197 1070047.226  1072226.872  1084985.089
+ 41  HKY+I         501714.775   2198 1007825.551  1010007.673  1022770.212
+ 42  HKY+G4        438789.878   2198 881975.757   884157.880   896920.419
+ 43  HKY+I+G4      437038.360   2199 878474.720   880659.321   893426.181
+ 44  HKY+R2        454889.424   2199 914176.848   916361.450   929128.310
+ 45  HKY+R3        441382.287   2201 887166.575   889356.140   902131.634
+ 46  HKY+R4        436825.059   2203 878056.119   880250.655   893034.777
+ 47  HKY+R5        434971.604   2205 874353.209   876552.725   889345.465
+ 48  HKY+R6        434211.917   2207 872837.833   875042.337   887843.688
+ 49  HKY+R7        433812.574   2209 872043.148   874252.648   887062.601
+ 50  HKY+R8        433660.028   2211 871742.056   873956.560   886775.108
+ 51  HKY+R9        433580.273   2213 871586.546   873806.062   886633.196
+ 52  HKY+R10       433548.000   2215 871525.999   873750.536   886586.248
+ 53  TNe           532401.381   2195 1069192.762  1071367.460  1084117.026
+ 54  TNe+I         501774.695   2196 1007941.390  1010118.561  1022872.453
+ 55  TNe+G4        440143.790   2196 884679.580   886856.752   899610.644
+ 56  TNe+I+G4      438465.184   2197 881324.368   883504.014   896262.231
+ 57  TNe+R2        455468.194   2197 915330.388   917510.034   930268.251
+ 58  TNe+R3        442611.312   2199 889620.624   891805.226   904572.086
+ 59  TNe+R4        438230.191   2201 880862.382   883051.947   895827.441
+ 60  TNe+R5        436550.739   2203 877507.478   879702.014   892486.136
+ 61  TNe+R6        435807.097   2205 876024.194   878223.710   891016.451
+ 62  TNe+R7        435525.669   2207 875465.338   877669.842   890471.193
+ 63  TNe+R8        435352.316   2209 875122.632   877332.132   890142.086
+ 64  TNe+R9        435272.644   2211 874967.288   877181.792   890000.340
+ 65  TNe+R10       435239.433   2213 874904.866   877124.382   889951.516
+ 66  TN            532021.802   2198 1068439.605  1070621.728  1083384.267
+ 67  TN+I          501269.919   2199 1006937.837  1009122.439  1021889.298
+ 68  TN+G4         438592.796   2199 881583.592   883768.194   896535.053
+ 69  TN+I+G4       436832.737   2200 878065.475   880252.557   893023.735
+ 70  TN+R2         454622.819   2200 913645.639   915832.721   928603.899
+ 71  TN+R3         441229.855   2202 886863.711   889055.760   901835.569
+ 72  TN+R4         436600.443   2204 877608.885   879805.911   892594.343
+ 73  TN+R5         434702.392   2206 873816.783   876018.792   888815.839
+ 74  TN+R6         433877.494   2208 872170.988   874377.989   887183.642
+ 75  TN+R7         433556.885   2210 871533.770   873745.771   886560.023
+ 76  TN+R8         433391.482   2212 871206.965   873423.974   886246.816
+ 77  TN+R9         433293.471   2214 871014.942   873236.968   886068.392
+ 78  TN+R10        433250.829   2216 870933.658   873160.708   886000.706
+ 79  K3P           532877.035   2195 1070144.070  1072318.768  1085068.334
+ 80  K3P+I         501823.940   2196 1008039.879  1010217.051  1022970.943
+ 81  K3P+G4        439955.258   2196 884302.516   886479.687   899233.579
+ 82  K3P+I+G4      438215.628   2197 880825.257   883004.903   895763.119
+ 83  K3P+R2        455288.105   2197 914970.209   917149.855   929908.072
+ 84  K3P+R3        442319.373   2199 889036.747   891221.348   903988.208
+ 85  K3P+R4        437982.321   2201 880366.643   882556.208   895331.702
+ 86  K3P+R5        436447.914   2203 877301.828   879496.365   892280.486
+ 87  K3P+R6        435717.310   2205 875844.620   878044.136   890836.876
+ 88  K3P+R7        435407.670   2207 875229.340   877433.844   890235.195
+ 89  K3P+R8        435297.592   2209 875013.184   877222.684   890032.637
+ 90  K3P+R9        435204.217   2211 874830.433   877044.937   889863.485
+ 91  K3P+R10       435174.233   2213 874774.467   876993.983   889821.117
+ 92  K3Pu          531743.213   2198 1067882.425  1070064.548  1082827.087
+ 93  K3Pu+I        500638.411   2199 1005674.822  1007859.424  1020626.284
+ 94  K3Pu+G4       438048.058   2199 880494.117   882678.718   895445.578
+ 95  K3Pu+I+G4     436289.377   2200 876978.753   879165.836   891937.014
+ 96  K3Pu+R2       453876.938   2200 912153.876   914340.958   927112.136
+ 97  K3Pu+R3       440536.429   2202 885476.857   887668.907   900448.716
+ 98  K3Pu+R4       436093.727   2204 876595.455   878792.480   891580.912
+ 99  K3Pu+R5       434336.392   2206 873084.784   875286.793   888083.839
+100  K3Pu+R6       433617.967   2208 871651.934   873858.935   886664.588
+101  K3Pu+R7       433248.728   2210 870917.457   873129.458   885943.709
+102  K3Pu+R8       433106.832   2212 870637.664   872854.673   885677.515
+103  K3Pu+R9       433019.482   2214 870466.964   872688.990   885520.414
+104  K3Pu+R10      432989.235   2216 870410.471   872637.521   885477.519
+105  TPM2          531554.615   2198 1067505.231  1069687.354  1082449.893
+106  TPM2+I        500587.149   2199 1005572.298  1007756.900  1020523.759
+107  TPM2+G4       438321.007   2199 881040.015   883224.616   895991.476
+108  TPM2+I+G4     436574.127   2200 877548.255   879735.337   892506.515
+109  TPM2+R2       453711.944   2200 911823.888   914010.970   926782.148
+110  TPM2+R3       440752.327   2202 885908.653   888100.703   900880.512
+111  TPM2+R4       436373.158   2204 877154.316   879351.342   892139.774
+WARNING: Numerical underflow caused by alignment sites 1113
+112  TPM2+R5       434724.725   2206 873861.450   876063.459   888860.506
+113  TPM2+R6       434016.324   2208 872448.649   874655.650   887461.303
+WARNING: Numerical underflow caused by alignment sites 1069 1113
+114  TPM2+R7       433677.665   2210 871775.330   873987.331   886801.583
+115  TPM2+R8       433532.031   2212 871488.062   873705.071   886527.913
+116  TPM2+R9       433431.422   2214 871290.843   873512.869   886344.293
+WARNING: Numerical underflow caused by alignment sites 1113
+117  TPM2+R10      433402.001   2216 871236.002   873463.052   886303.050
+118  TPM2u         531554.210   2198 1067504.421  1069686.543  1082449.083
+119  TPM2u+I       500587.249   2199 1005572.498  1007757.100  1020523.960
+120  TPM2u+G4      438320.988   2199 881039.976   883224.578   895991.437
+121  TPM2u+I+G4    436574.281   2200 877548.562   879735.645   892506.823
+122  TPM2u+R2      453711.959   2200 911823.919   914011.001   926782.179
+123  TPM2u+R3      440752.364   2202 885908.727   888100.777   900880.586
+124  TPM2u+R4      436373.322   2204 877154.645   879351.670   892140.102
+WARNING: Numerical underflow caused by alignment sites 1113
+125  TPM2u+R5      434724.908   2206 873861.816   876063.825   888860.871
+126  TPM2u+R6      434016.524   2208 872449.048   874656.049   887461.702
+127  TPM2u+R7      433677.557   2210 871775.114   873987.115   886801.367
+128  TPM2u+R8      433532.246   2212 871488.492   873705.501   886528.343
+129  TPM2u+R9      433430.736   2214 871289.473   873511.498   886342.922
+WARNING: Numerical underflow caused by alignment sites 1114 1162 6346
+130  TPM2u+R10     433401.897   2216 871235.793   873462.843   886302.841
+131  TPM3          531404.180   2198 1067204.360  1069386.482  1082149.022
+132  TPM3+I        500602.718   2199 1005603.435  1007788.037  1020554.896
+133  TPM3+G4       438598.247   2199 881594.495   883779.096   896545.956
+134  TPM3+I+G4     436860.850   2200 878121.700   880308.782   893079.960
+135  TPM3+R2       454137.179   2200 912674.359   914861.441   927632.619
+136  TPM3+R3       441119.116   2202 886642.232   888834.281   901614.090
+137  TPM3+R4       436650.835   2204 877709.670   879906.695   892695.127
+138  TPM3+R5       434887.223   2206 874186.446   876388.455   889185.501
+139  TPM3+R6       434144.926   2208 872705.852   874912.853   887718.506
+140  TPM3+R7       433772.559   2210 871965.118   874177.119   886991.371
+141  TPM3+R8       433619.053   2212 871662.105   873879.115   886701.956
+142  TPM3+R9       433537.827   2214 871503.655   873725.680   886557.104
+143  TPM3+R10      433505.501   2216 871443.003   873670.053   886510.050
+144  TPM3u         531404.240   2198 1067204.480  1069386.603  1082149.142
+145  TPM3u+I       500602.663   2199 1005603.326  1007787.927  1020554.787
+146  TPM3u+G4      438598.332   2199 881594.665   883779.266   896546.126
+147  TPM3u+I+G4    436860.887   2200 878121.774   880308.857   893080.035
+148  TPM3u+R2      454136.936   2200 912673.872   914860.954   927632.132
+149  TPM3u+R3      441119.005   2202 886642.010   888834.060   901613.869
+150  TPM3u+R4      436651.280   2204 877710.560   879907.585   892696.017
+151  TPM3u+R5      434886.520   2206 874185.040   876387.049   889184.095
+152  TPM3u+R6      434145.700   2208 872707.400   874914.401   887720.054
+153  TPM3u+R7      433770.032   2210 871960.063   874172.064   886986.316
+154  TPM3u+R8      433618.380   2212 871660.760   873877.769   886700.611
+155  TPM3u+R9      433537.540   2214 871503.080   873725.106   886556.530
+156  TPM3u+R10     433505.581   2216 871443.162   873670.212   886510.210
+157  TIMe          531278.116   2196 1066948.232  1069125.403  1081879.295
+158  TIMe+I        500629.430   2197 1005652.860  1007832.506  1020590.723
+159  TIMe+G4       439067.954   2197 882529.908   884709.554   897467.771
+160  TIMe+I+G4     437418.884   2198 879233.768   881415.891   894178.430
+161  TIMe+R2       454318.548   2198 913033.095   915215.218   927977.757
+162  TIMe+R3       441500.312   2200 887400.624   889587.706   902358.885
+163  TIMe+R4       437180.903   2202 878765.805   880957.855   893737.664
+164  TIMe+R5       435553.699   2204 875515.398   877712.423   890500.855
+165  TIMe+R6       434821.223   2206 874054.447   876256.456   889053.502
+166  TIMe+R7       434542.105   2208 873500.209   875707.210   888512.863
+167  TIMe+R8       434377.703   2210 873175.407   875387.408   888201.659
+168  TIMe+R9       434301.685   2212 873027.371   875244.380   888067.222
+169  TIMe+R10      434268.473   2214 872964.946   875186.971   888018.395
+170  TIM           530940.032   2199 1066278.064  1068462.665  1081229.525
+171  TIM+I         500195.040   2200 1004790.081  1006977.163  1019748.341
+172  TIM+G4        437838.717   2200 880077.433   882264.516   895035.694
+173  TIM+I+G4      436116.596   2201 876635.192   878824.757   891600.252
+174  TIM+R2        453619.829   2201 911641.658   913831.223   926606.717
+WARNING: Numerical underflow caused by alignment sites 6324
+175  TIM+R3        440374.225   2203 885154.450   887348.986   900133.108
+176  TIM+R4        435875.773   2205 876161.547   878361.063   891153.803
+177  TIM+R5        434088.830   2207 872591.659   874796.163   887597.514
+178  TIM+R6        433291.030   2209 871000.059   873209.559   886019.512
+179  TIM+R7        432998.592   2211 870419.183   872633.687   885452.235
+180  TIM+R8        432832.288   2213 870090.575   872310.092   885137.225
+181  TIM+R9        432738.934   2215 869907.868   872132.405   884968.117
+182  TIM+R10       432700.288   2217 869834.577   872064.142   884908.424
+183  TIM2e         531238.750   2196 1066869.499  1069046.671  1081800.563
+184  TIM2e+I       500685.053   2197 1005764.106  1007943.752  1020701.969
+185  TIM2e+G4      439321.657   2197 883037.315   885216.961   897975.177
+186  TIM2e+I+G4    437600.818   2198 879597.636   881779.759   894542.298
+187  TIM2e+R2      454359.668   2198 913115.336   915297.459   928059.998
+188  TIM2e+R3      441670.693   2200 887741.386   889928.468   902699.646
+189  TIM2e+R4      437365.610   2202 879135.221   881327.271   894107.080
+190  TIM2e+R5      435828.762   2204 876065.524   878262.550   891050.982
+191  TIM2e+R6      435097.717   2206 874607.433   876809.442   889606.489
+192  TIM2e+R7      434779.804   2208 873975.609   876182.610   888988.263
+193  TIM2e+R8      434645.336   2210 873710.673   875922.674   888736.925
+194  TIM2e+R9      434570.913   2212 873565.826   875782.835   888605.676
+195  TIM2e+R10     434537.641   2214 873503.282   875725.308   888556.731
+196  TIM2          530721.159   2199 1065840.318  1068024.919  1080791.779
+197  TIM2+I        500115.265   2200 1004630.531  1006817.613  1019588.791
+198  TIM2+G4       438093.236   2200 880586.473   882773.555   895544.733
+199  TIM2+I+G4     436341.221   2201 877084.442   879274.007   892049.502
+200  TIM2+R2       453424.608   2201 911251.216   913440.781   926216.275
+201  TIM2+R3       440482.958   2203 885371.915   887566.452   900350.573
+202  TIM2+R4       436101.374   2205 876612.748   878812.265   891605.005
+203  TIM2+R5       434451.173   2207 873316.346   875520.850   888322.201
+204  TIM2+R6       433636.998   2209 871691.995   873901.495   886711.449
+WARNING: Numerical underflow caused by alignment sites 1113 1114
+205  TIM2+R7       433354.602   2211 871131.203   873345.707   886164.255
+WARNING: Numerical underflow caused by alignment sites 1069 1113 6346
+WARNING: Numerical underflow caused by alignment sites 1069 1113 1114 6346
+WARNING: Numerical underflow caused by alignment sites 1039 1069 1113 1114 1162 1172 6107 6158 6381 6496
+206  TIM2+R8       433192.276   2213 870810.551   873030.068   885857.201
+207  TIM2+R9       433104.683   2215 870639.366   872863.902   885699.614
+WARNING: Numerical underflow caused by alignment sites 1113
+WARNING: Numerical underflow caused by alignment sites 963
+208  TIM2+R10      433064.628   2217 870563.256   872792.821   885637.103
+209  TIM3e         530831.438   2196 1066054.875  1068232.047  1080985.939
+210  TIM3e+I       500344.830   2197 1005083.660  1007263.306  1020021.523
+211  TIM3e+G4      439115.699   2197 882625.399   884805.045   897563.261
+212  TIM3e+I+G4    437460.610   2198 879317.221   881499.344   894261.883
+213  TIM3e+R2      454082.778   2198 912561.556   914743.679   927506.218
+214  TIM3e+R3      441498.342   2200 887396.683   889583.765   902354.944
+215  TIM3e+R4      437243.096   2202 878890.191   881082.241   893862.050
+216  TIM3e+R5      435663.159   2204 875734.318   877931.343   890719.775
+217  TIM3e+R6      434931.686   2206 874275.371   876477.380   889274.427
+218  TIM3e+R7      434629.352   2208 873674.704   875881.705   888687.358
+219  TIM3e+R8      434464.793   2210 873349.585   875561.586   888375.838
+220  TIM3e+R9      434404.017   2212 873232.035   875449.044   888271.885
+221  TIM3e+R10     434371.778   2214 873171.556   875393.582   888225.006
+222  TIM3          530755.774   2199 1065909.549  1068094.150  1080861.010
+223  TIM3+I        500259.061   2200 1004918.121  1007105.203  1019876.382
+224  TIM3+G4       438433.449   2200 881266.898   883453.980   896225.158
+225  TIM3+I+G4     436737.821   2201 877877.641   880067.206   892842.701
+226  TIM3+R2       453917.282   2201 912236.565   914426.130   927201.624
+227  TIM3+R3       441004.123   2203 886414.246   888608.783   901392.904
+228  TIM3+R4       436515.473   2205 877440.947   879640.463   892433.203
+229  TIM3+R5       434652.097   2207 873718.195   875922.699   888724.050
+230  TIM3+R6       433866.837   2209 872151.673   874361.173   887171.126
+231  TIM3+R7       433553.341   2211 871528.683   873743.187   886561.734
+232  TIM3+R8       433377.410   2213 871180.821   873400.337   886227.471
+233  TIM3+R9       433282.295   2215 870994.589   873219.126   886054.837
+234  TIM3+R10      433239.779   2217 870913.558   873143.123   885987.405
+235  TVMe          530789.104   2197 1065972.208  1068151.854  1080910.071
+236  TVMe+I        499947.491   2198 1004290.982  1006473.104  1019235.644
+237  TVMe+G4       438648.266   2198 881692.533   883874.655   896637.195
+238  TVMe+I+G4     436879.632   2199 878157.264   880341.865   893108.725
+239  TVMe+R2       453446.378   2199 911290.756   913475.358   926242.217
+240  TVMe+R3       440916.873   2201 886235.745   888425.310   901200.805
+241  TVMe+R4       436647.612   2203 877701.225   879895.761   892679.883
+242  TVMe+R5       435283.776   2205 874977.552   877177.068   889969.808
+243  TVMe+R6       434549.614   2207 873513.227   875717.731   888519.082
+244  TVMe+R7       434234.454   2209 872886.909   875096.409   887906.362
+245  TVMe+R8       434128.395   2211 872678.790   874893.294   887711.842
+246  TVMe+R9       434047.912   2213 872521.824   874741.340   887568.474
+247  TVMe+R10      434018.266   2215 872466.531   874691.068   887526.780
+248  TVM           529654.430   2200 1063708.861  1065895.943  1078667.121
+249  TVM+I         498973.817   2201 1002349.635  1004539.200  1017314.694
+250  TVM+G4        437564.390   2201 879530.780   881720.344   894495.839
+251  TVM+I+G4      435825.223   2202 876054.445   878246.495   891026.304
+252  TVM+R2        452441.341   2202 909286.683   911478.733   924258.542
+253  TVM+R3        439907.710   2204 884223.420   886420.446   899208.877
+254  TVM+R4        435612.951   2206 875637.902   877839.911   890636.958
+255  TVM+R5        434120.989   2208 872657.977   874864.978   887670.631
+256  TVM+R6        433405.410   2210 871230.820   873442.821   886257.073
+257  TVM+R7        433089.545   2212 870603.090   872820.099   885642.941
+258  TVM+R8        432963.756   2214 870355.511   872577.537   885408.961
+259  TVM+R9        432864.009   2216 870160.019   872387.069   885227.067
+WARNING: Numerical underflow caused by alignment sites 1113 1114 1162 1172 6107
+WARNING: Numerical underflow caused by alignment sites 1113 1114 1162 1172 6107
+260  TVM+R10       432832.676   2218 870101.353   872333.435   885181.999
+261  SYM           529177.775   2198 1062751.550  1064933.673  1077696.212
+262  SYM+I         498746.978   2199 1001891.956  1004076.558  1016843.417
+263  SYM+G4        437753.802   2199 879905.603   882090.205   894857.065
+264  SYM+I+G4      436050.517   2200 876501.033   878688.115   891459.293
+265  SYM+R2        452473.015   2200 909346.031   911533.113   924304.291
+266  SYM+R3        440010.729   2202 884425.458   886617.507   899397.316
+267  SYM+R4        435825.840   2204 876059.679   878256.705   891045.137
+268  SYM+R5        434362.098   2206 873136.196   875338.205   888135.252
+269  SYM+R6        433663.935   2208 871743.871   873950.872   886756.525
+270  SYM+R7        433330.728   2210 871081.456   873293.457   886107.708
+271  SYM+R8        433191.872   2212 870807.743   873024.752   885847.594
+272  SYM+R9        433139.828   2214 870707.656   872929.682   885761.106
+273  SYM+R10       433108.643   2216 870649.285   872876.335   885716.333
+274  GTR           528969.398   2201 1062340.797  1064530.362  1077305.856
+275  GTR+I         498598.986   2202 1001601.973  1003794.023  1016573.832
+WARNING: Numerical underflow caused by alignment sites 1113
+WARNING: Numerical underflow caused by alignment sites 1113
+276  GTR+G4        437387.948   2202 879179.896   881371.946   894151.755
+277  GTR+I+G4      435666.403   2203 875738.806   877933.342   890717.464
+278  GTR+R2        452193.575   2203 908793.150   910987.687   923771.808
+279  GTR+R3        439690.053   2205 883790.106   885989.622   898782.362
+280  GTR+R4        435433.459   2207 875280.918   877485.422   890286.772
+281  GTR+R5        433886.430   2209 872190.861   874400.361   887210.314
+WARNING: Numerical underflow caused by alignment sites 1113
+282  GTR+R6        433121.232   2211 870664.464   872878.968   885697.515
+283  GTR+R7        432832.965   2213 870091.931   872311.447   885138.581
+284  GTR+R8        432680.429   2215 869790.858   872015.394   884851.106
+285  GTR+R9        432600.689   2217 869635.378   871864.943   884709.225
+286  GTR+R10       432563.338   2219 869564.676   871799.278   884652.121
+Akaike Information Criterion:           GTR+R10
+Corrected Akaike Information Criterion: GTR+R10
+Bayesian Information Criterion:         GTR+R10
+Best-fit model: GTR+R10 chosen according to BIC
+CPU time for model selection: 713536.155 seconds.
+
+NOTE: 1779 MB RAM is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -446128.728
+2. Current log-likelihood: -433354.571
+3. Current log-likelihood: -432896.328
+4. Current log-likelihood: -432830.233
+5. Current log-likelihood: -432804.257
+6. Current log-likelihood: -432787.391
+7. Current log-likelihood: -432773.178
+8. Current log-likelihood: -432763.377
+9. Current log-likelihood: -432756.451
+10. Current log-likelihood: -432751.206
+11. Current log-likelihood: -432746.897
+12. Current log-likelihood: -432743.102
+13. Current log-likelihood: -432739.706
+14. Current log-likelihood: -432737.093
+15. Current log-likelihood: -432735.412
+16. Current log-likelihood: -432734.387
+17. Current log-likelihood: -432733.612
+18. Current log-likelihood: -432733.007
+19. Current log-likelihood: -432732.491
+20. Current log-likelihood: -432732.077
+21. Current log-likelihood: -432731.834
+22. Current log-likelihood: -432731.320
+23. Current log-likelihood: -432731.202
+24. Current log-likelihood: -432731.098
+25. Current log-likelihood: -432731.012
+26. Current log-likelihood: -432730.939
+27. Current log-likelihood: -432730.880
+28. Current log-likelihood: -432730.831
+Optimal log-likelihood: -432730.823
+Rate parameters:  A-C: 1.121  A-G: 3.101  A-T: 2.172  C-G: 1.294  C-T: 6.827  G-T: 1.000
+Base frequencies:   A: 0.275  C: 0.196  G: 0.262  T: 0.267
+Site proportion and rates:  (0.319,0.010) (0.189,0.078) (0.131,0.280) (0.101,0.629) (0.081,1.224) (0.063,2.211) (0.046,3.438) (0.034,4.998) (0.022,7.413) (0.014,10.932)
+Parameters optimization took 28 rounds (2358.253 sec)
+BEST SCORE FOUND : -432730.823
+Total tree length: 31.511
+
+Total number of iterations: 0
+CPU time used for tree search: 0.285 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.024 sec (0h:0m:0s)
+Total CPU time used: 741811.194 sec (206h:3m:31s)
+Total wall-clock time used: 61931.128 sec (17h:12m:11s)
+
+Analysis results written to: 
+  IQ-TREE report:                model_no_long.iqtree
+  Tree used for model selection: model_no_long.treefile
+  Screen log file:               model_no_long.log
+
+Date and Time: Tue Sep 26 03:17:59 2017
