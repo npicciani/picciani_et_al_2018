@@ -1,0 +1,29 @@
+treefile = nat_tre_newick.tre
+smooth = 100
+numsites = 6629
+mrca = ROOT Trichoplax_adhaerens Abyssoprimnoa_gemina
+min = ROOT 635
+max = ROOT 635
+mrca = CNID Aglaophenia_tubiformis Abyssoprimnoa_gemina
+min = CNID 540
+max = CNID 635 
+mrca = MED Calvadosia_campanulata Chironex_yamaguchii
+min = MED 570
+max = MED 570
+mrca = ACRO_AGAR Acropora_palmata Agaricia_fragilis
+min = ACRO_AGAR 54.9
+max = ACRO_AGAR 55.1
+mrca = PAV_AGAR Pavona_frondifera Agaricia_fragilis
+min = PAV_AGAR 32.9
+max = PAV_AGAR 33.1 
+mrca = HEXA Acanthopathes_thyoides Corallimorphus_profundus
+min = HEXA 540
+max = HEXA 540
+outfile = tree_cnid_635.tre
+cv
+randomcv
+cvoutfile = tree_rancv.txt
+#thorough
+opt = 1
+optad = 1
+optcvad = 5
